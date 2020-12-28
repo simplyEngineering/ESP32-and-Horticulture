@@ -1,13 +1,12 @@
-# An account of the integration of embedded microcontrollers (esp ESP32 & ESP8266) in a horticultural setting.
+# An account of the integration of embedded microcontrollers (esp ESP32 and ESP8266) in an indoor horticultural setting.
 
 
 
-for the express purpose of optimising crop growing conditions.for the express purpose of optimising crop growing conditions.
+Whatever the crop, balancing yield and quality aginst cost and time  demands tight control of growing conditions. However, effective control cannot be carried out without an intimate knowledge of growing conditions, demanding measurement and control sub-sytems for which the ESP32 and ESP8266 devices are very well suited.
 
 An ESP32/ESP8266-based experimental system incorporating monitoring, control and data logging capabilities for the 
 
-The system is incorporated in a free-standing structure provide by ??? having a small footprint due its unusual location within the cockpit of a dry-docked sailing yacht.
-
+The system is incorporated in a free-standing structure provide by ??? having a small footprint due its unusual location within the cockpit of a dry-docked sailing yacht
 Control loops are provided for Temperature, Humidity, Irrigation and Ventilation whilst CO2 and light levels are monitored/logged for informational purposes only.
 
 A single ESP8266 programmed in the Arduino environment incorporates standard off-the-shelf sensor libraries and delivers the following functionality:
