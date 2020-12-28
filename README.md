@@ -4,7 +4,7 @@
 
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, effective control cannot be carried out without an intimate knowledge of growing conditions, demanding measurement and control sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
-For the purpose of this exercise and as a realistic field operation the growing facilities of a local tomato grower were recruited whos polytunnels were scattered over an area in excess of 100 hA. In order to conveniently facilitate R&D activities, a small greenhouse 'lab' was constructed, based upon a 'Veg trug' Tomato greenhouse, a free-standing timber structure having a small footprint due its unusual location within the cockpit of a dry-docked sailing yacht.
+For the purpose of this exercise and as a realistic field operation the growing facilities of a local tomato grower were recruited whos polytunnels were scattered over a large area. In order to conveniently facilitate R&D activities, a small greenhouse 'lab' was constructed, based upon a 'Veg trug' Tomato greenhouse, a free-standing timber structure having a small footprint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
 Control loops are provided for Temperature, Humidity, Irrigation and Ventilation whilst CO2 and light levels are monitored/logged for informational purposes only.
 
