@@ -2,7 +2,7 @@
 
 
 
-Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, effective control cannot be carried out without an intimate knowledge of growing conditions, demanding measurement, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
+Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, effective control cannot be carried out without an intimate knowledge of the growing environment, demanding measurement, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32 LoraWan
 
@@ -10,7 +10,7 @@ Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ES
 
 
 For the purpose of this exercise a field operation was set up with the cooperation of a local tomato grower having  polytunnels scattered over a large area.
-A typical polytunnel configuration and outbuiding:
+A typical on-site polytunnel and outbuiding configuration:
 
 <image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "75%">
 
