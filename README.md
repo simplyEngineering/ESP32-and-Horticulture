@@ -1,5 +1,10 @@
-# Experimental Automatic Greenhouse
-An ESP32/ESP8266-based experimental system incorporating monitoring, control and data logging capabilities for the express purpose of optimising crop growing conditions.
+# An account of the integration of embedded microcontrollers (esp ESP32 & ESP8266) in a horticultural setting.
+
+
+
+for the express purpose of optimising crop growing conditions.for the express purpose of optimising crop growing conditions.
+
+An ESP32/ESP8266-based experimental system incorporating monitoring, control and data logging capabilities for the 
 
 The system is incorporated in a free-standing structure provide by ??? having a small footprint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
