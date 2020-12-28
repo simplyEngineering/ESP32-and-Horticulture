@@ -1,4 +1,4 @@
-# Embedding microcontrollers (esp ESP32 and ESP8266) in an indoor horticultural setting - an interesting example.
+# Embedding microcontrollers (esp ESP32 and ESP8266) in an indoor horticultural setting - a working example.
 
 
 
