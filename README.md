@@ -1,10 +1,13 @@
-# Embedding microcontrollers (esp ESP32 and ESP8266) in an indoor horticultural setting - an einteresting example.
+# Embedding microcontrollers (esp ESP32 and ESP8266) in an indoor horticultural setting - an interesting example.
 
 
 
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, effective control cannot be carried out without an intimate knowledge of growing conditions, demanding measurement and control sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 Examples of the microcontrollers used:
+
+![image](https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/processors.s.jpg)
+
 
 For the purpose of this exercise a field operation was set up with the cooperation of a local tomato grower having  polytunnels scattered over a large area.
 A typical polytunnel configuration and outbuiding:
