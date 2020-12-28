@@ -6,12 +6,13 @@ Whatever the crop, balancing yield and quality against cost and time  demands ti
 
 Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32 LoraWan
 
-![image](https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/processors.s.jpg)
+<image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/processors.s.jpg" width = "50%">
 
 
 For the purpose of this exercise a field operation was set up with the cooperation of a local tomato grower having  polytunnels scattered over a large area.
 A typical polytunnel configuration and outbuiding:
 
+<image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "75%">
 
 
 To conveniently facilitate R&D activities, a small greenhouse 'lab' was constructed, based upon a 'Veg trug' Tomato greenhouse, a free-standing timber structure having a small footprint, a requirement due its unusual location within the cockpit of a dry-docked sailing yacht.
