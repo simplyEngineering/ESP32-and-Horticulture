@@ -19,6 +19,16 @@ To conveniently facilitate R&D activities, a small greenhouse 'lab' was construc
 
 The basic 'VegTrug' frame:
 
+<image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/vegtrug.jpg" width = "25%">
+
+
+
+
+
+
+
+
+
 
 
 Control loops are provided for Temperature, Humidity, Irrigation and Ventilation whilst CO2 and light levels are monitored/logged for informational purposes only.
