@@ -15,7 +15,7 @@ A typical on-site polytunnel and outbuiding configuration:
 <image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "75%">
 
 
-To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a limiting constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
+To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
 The basic 'VegTrug' frame:
 
