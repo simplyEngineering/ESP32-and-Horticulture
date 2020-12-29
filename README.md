@@ -2,7 +2,7 @@
 
 
 
-Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, effective control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
+Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 This document identfies the various elements employed in the project with photographs of the prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings where appropriate.
 
