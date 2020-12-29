@@ -7,7 +7,7 @@ Whatever the crop, balancing yield and quality against cost and time  demands ti
 This document identfies the various elements employed in the project with photographs of the prototype hardware and code listings where appropriate.
 
 
-|a  |b  |
+|   |   |
 |---|:--|	
 |<image src = "/processors.s.jpg" width = "95%">|Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32  Heltec LoraWan|
 
