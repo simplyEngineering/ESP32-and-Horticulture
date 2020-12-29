@@ -6,9 +6,9 @@ Whatever the crop, balancing yield and quality against cost and time  demands ti
 
 This document identfies the various elements employed in the project with photographs of the prototype hardware and code listings where appropriate.
 
-Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32  Heltec LoraWan
 
-|<image src = "/processors.s.jpg" width = "50%">|<image src = "/processors.s.jpg" width = "50%">|
+
+|<image src = "/processors.s.jpg" width = "50%">||Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32  Heltec LoraWan|
 |-----------------------------------------------|-----------------------------------------------|	
 
 For the purpose of this project and with the cooperation of a local tomato grower, a field operation was set up having  polytunnels scattered over many hectares.
