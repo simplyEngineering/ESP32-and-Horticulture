@@ -8,7 +8,7 @@ This document identfies the various elements employed in the project with photog
 
 Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ESP32 Heltec WiFi32, ESP32  Heltec LoraWan
 
-<image src = "/processors.s.jpg" width = "50%">
+<image float="right" src = "/processors.s.jpg" width = "50%">
 
 For the purpose of this project and with the cooperation of a local tomato grower, a field operation was set up having  polytunnels scattered over many hectares.
 A typical on-site polytunnel and outbuiding configuration:
