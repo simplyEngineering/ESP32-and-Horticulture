@@ -13,14 +13,14 @@ Examples of the microcontrollers used from left to right: ESP32-CAM, ESP8266, ES
 For the purpose of this project and with the cooperation of a local tomato grower, a field operation was set up having  polytunnels scattered over many hectares.
 A typical on-site polytunnel and outbuiding configuration:
 
-<image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "75%">
+<image src = "/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "75%">
 
 
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
 The basic 'VegTrug' frame:
 
-<image src = "https://github.com/simplyEngineering/ESP32-and-Horticulture/blob/main/vegtrug.jpg" width = "25%">
+<image src = "/vegtrug.jpg" width = "25%">
 
 
 
