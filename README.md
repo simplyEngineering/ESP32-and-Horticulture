@@ -12,7 +12,8 @@ This document identfies the various elements employed in the project with photog
 	- ESP32-CAM
 	- ESP8266 
 	- ESP32 Heltec WiFi32
-	- ESP32  Heltec LoraWan|
+	- ESP32  Heltec LoraWan
+	|
 |-----------------------------------------------|-----------------------------------------------|	
 
 For the purpose of this project and with the cooperation of a local tomato grower, a field operation was set up having  polytunnels scattered over many hectares.
