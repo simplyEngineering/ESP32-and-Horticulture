@@ -14,13 +14,12 @@ This document identfies the various elements employed in the project with photog
 For the purpose of this project and with the cooperation of a local tomato grower having  polytunnels scattered over many hectares, a field operation was set up so that selected tunnels could be set up with appropriate monitoring and communication equipment (see later for details).
 
 |<image src = "/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "100%">|An example on-site polytunnel and outbuiding configuration|
-|---|---|
+|---|:--|
 
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
-The basic 'VegTrug' frame:
-
-<image src = "/vegtrug.jpg" width = "25%">
+|<image src = "/vegtrug.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.
+|---|:--|
 
 
 
