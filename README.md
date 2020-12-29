@@ -9,7 +9,7 @@ This document identfies the various elements employed in the project with photog
 
 |   |   |
 |---|:--|	
-|<image src = "/processors.s.jpg" width = "100%">|Examples of the microcontrollers used from left to right (typical specs): <br><b>ESP32-CAM:</b>ESP32-S chip, 520k SRAM, 4M PSRAM, 2MP OV2640 camera, microSD card, 10 accessible GPIOs and power pins, on-board WiFi antenna and IPEX connector for external antenna.<br><b>ESP8266(NodeMCU):</b>Single core 32-bit processor, 128k RAM, 4MB flash, 17 GPIO pins, I2C/SPI, 10-bit ADC, WiFi<br><b>ESP32 Heltec WiFi32</b><br><b>ESP32  Heltec LoraWan</b>|
+|<image src = "/processors.s.jpg" width = "100%">|<b>Examples of the microcontrollers used from left to right (typical specs):</b> <br><b>ESP32-CAM:</b>ESP32-S chip, 520k SRAM, 4M PSRAM, 2MP OV2640 camera, microSD card, 10 accessible GPIOs and power pins, on-board WiFi antenna and IPEX connector for external antenna.<br><b>ESP8266(NodeMCU):</b>Single core 32-bit processor, 128k RAM, 4MB flash, 17 GPIO pins, I2C/SPI, 10-bit ADC, WiFi<br><b>ESP32 Heltec WiFi32</b><br><b>ESP32  Heltec LoraWan</b>|
 
 For the purpose of this project and with the cooperation of a local tomato grower, a field operation was set up having  polytunnels scattered over many hectares.
 A typical on-site polytunnel and outbuiding configuration:
