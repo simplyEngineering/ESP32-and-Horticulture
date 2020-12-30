@@ -1,6 +1,6 @@
 # Employing microcontrollers (esp ESP32 and ESP8266) in a horticultural setting - a working example.
 
-
+# The Project
 
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
@@ -19,6 +19,10 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |<image src = "/vegtrug.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.
 |---|:--|
+
+# System Overview
+
+A number of satellite 
 
 
 
