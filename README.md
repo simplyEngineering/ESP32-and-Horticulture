@@ -22,23 +22,4 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 # System Overview
 
-A number of satellite 
-
-
-
-
-
-
-
-
-
-
-
-Control loops are provided for Temperature, Humidity, Irrigation and Ventilation whilst CO2 and light levels are monitored/logged for informational purposes only.
-
-A single ESP8266 programmed in the Arduino environment incorporates standard off-the-shelf sensor libraries and delivers the following functionality:
-
-	1: Temperature, humidity, weight, light  and atmospheric pressure are measured via I2C interfaces whilst CO2 measurments are interrupt based.  
-	2: Relays are provided to switch a mains powered heater, humidifier and water pump and low voltage DC ventilation fans.  
-	3: An interactive web page delivered via the local WiFi network provides monitoring of all parameters, the control status of each loop. and set-point configuration capabilities.   
-	4: All measurements and control activity are logged to a remote SQL database for later off-line analysis.
+The system structure is based on a star network,  each host (polytunnel) having its own autonomous data acquisition and control capabilities reporting to a central hub via a long range radio (LoRa) the hub in turn via a WiFi router Internet connected to a database server which consolidates all host-originated parametric measurements. These local measurements are used autonomously to control various aspects of the Polytunnel environments.
