@@ -22,4 +22,4 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 # System Overview
 
-The system structure is based on a star network,  each host (polytunnel) having its own autonomous data acquisition and control capabilities reporting to a central hub using low-power wide-area network (LPWAN) protocol internet connected via a WiFi router to an SQL database server which consolidates all host-originated parametric measurements. The local measurements are used autonomously to control various aspects of the Polytunnel environments whilst the database may be queried for analytical purposes.
+The system structure is based on a star network,  each host (polytunnel) having its own autonomous data acquisition and control capabilities. Each host reports to a central hub using low-power wide-area network (LPWAN) protocols,  internet connected via a WiFi router to an SQL database server consolidating all host-originated parametric measurements. The local measurements are used autonomously to control various aspects of the Polytunnel environments whilst the database may be queried for analytical purposes.
