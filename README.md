@@ -1,4 +1,4 @@
-# Employing microcontrollers (esp ESP32 and ESP8266) in a horticultural setting - a working example.
+# Employing ESP32 and ESP8266 microcontrollers in a horticultural setting - a working example.
 
 # The Project
 
