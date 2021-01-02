@@ -4,7 +4,7 @@
 
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
-This document identfies various experimental elements employed in the project with photographs of the prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings with attributions where appropriate.
+This document identfies various experimental elements employed in the project with photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings with attributions where appropriate.
 
 |   |   |
 |---|:--|	
@@ -23,5 +23,5 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 # System Overview
 
 
-|   |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Each host beyond WiFi range reports to a central hub using low-power wide-area network (LPWAN) protocols,  internet connected via a WiFi router to an SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes.  For simplicity the rest of the document will be focused on a single host (polytunnel), the hub and subsequent database analysis and display elements.|
+|   |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 |---|:--|
