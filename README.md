@@ -17,7 +17,7 @@ For the purpose of this project and with the cooperation of a local tomato growe
 
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
-|<image src = "/vegtrug.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.
+|<image src = "/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.
 |---|:--|
 
 # System Overview
