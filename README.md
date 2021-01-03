@@ -1,4 +1,3 @@
-<style>background-color="powderblue"</style>
 # Employing ESP32 and ESP8266 microcontrollers in a horticultural setting - a working example.
 
 # The Project
@@ -7,7 +6,7 @@ Whatever the crop, balancing yield and quality against cost and time  demands ti
 
 This document identfies various experimental elements employed in the project with photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings with attributions where appropriate.
 
-|   |   |
+|  <style>background-color="powderblue"</style> |   |
 |---|:--|	
 |<image src = "images/ESP32 and ESP8266 variants.jpg" width = "100%">|<b>Examples of the microcontrollers used from left to right (typical specs):</b> <br><b>ESP32-CAM:</b>ESP32-S chip, 520k SRAM, 4M PSRAM, 2MP OV2640 camera, microSD card, 10 accessible GPIOs and power pins, on-board WiFi antenna and IPEX connector for external antenna.<br><b>ESP8266(NodeMCU):</b>Single core 32-bit processor, 128k RAM, 4MB flash, 17 GPIO pins, I2C/SPI, 10-bit ADC, WiFi<br><b>Heltec WiFi kit 32:</b>Dual-core 32-bit processor, 448k ROM, 520k SRAM, WiFi, Blutooth, 128x64 OLED display, I2C/SPI, 34 GPIO, 2x8-bit DAC, up to 18 12-bit ADC (GPIO shared)<br><b>Heltec WiFi LoRa 32:</b>Similar to WiFi kit 32 + LoRa Wide Area Network capability.|
 	
