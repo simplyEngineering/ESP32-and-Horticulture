@@ -27,5 +27,5 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |---|:--|
 
 |<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="100%">|A data acquisition, WEB server, client and controller module|
-!---|:--|
+|---|:--|
 
