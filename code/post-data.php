@@ -1,26 +1,19 @@
 <?php
 /*
-  Rui Santos
-  Complete project details at https://RandomNerdTutorials.com
-  
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files.
-  
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
+Copyright 2021 Stuart A Spray -  'simplyEnginerin'
+With elements by  Rui Santos https://RandomNerdTutorials.co
 */
 
 $servername = "localhost";
 
 // REPLACE with your Database name
-$dbname = "cl55-acresaver";
+$dbname = "*********";
 // REPLACE with Database user
-$username = "cl55-acresaver";
+$username = "*************";
 // REPLACE with Database user password
-$password = "A6xbw8Lyszd7.";
+$password = "***************";
 
-// Keep this API Key value to be compatible with the ESP32 code provided in the project page. If you change this value, the ESP32 sketch needs to match
-$api_key_value = "tPmAT5Ab3j7F9";
+$api_key_value = "********************";
 $err= "";
 $err1= "";
 $api_key = $temperature= $pressure= $humidity= $light= $weight= $battery= $sequence= $rxreset= $packet= $postcount= $rssi= $lostpackets= $quality= $CO2= $VOC="";
