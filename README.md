@@ -28,6 +28,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |   |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 |---|:--|
 
+|Typical host instrumentation
 |<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="120%">|A data acquisition, WEB server, client and controller module. Based on a single ESP8266 serving an interactive monitoring and control GUI on the local network (below left code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>) and uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public (secured) SQL server (see sample database data list below left). SQL data is subsequently accessed via a PHP page (see <a href="web/get_data.php"> code</a>) to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. |
 |---|:--|
 	
