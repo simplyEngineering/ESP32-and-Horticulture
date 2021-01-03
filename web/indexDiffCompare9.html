@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chart Display</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src='OSC.js'></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="wrap">
+    <div id='heading1'>Comparative 7-day hourly summary</div>
+    <div>
+        <table id='tableHead'>
+        <tr>
+            <td id="ct" width="10%">
+            </td>
+            <td width="6%">Battery
+            </td>
+            <td width="6%">Weight
+            </td>
+            <td width="6%">Temperature
+            </td>
+            <td width="6%">Light
+            </td>
+            <td width="6%">Pressure
+            </td>
+            <td width="6%">Humidity
+            </td>
+            <td width="6%">Quality
+						</td>
+						<td width="6%">RSSI
+						</td>
+						<td width="6%">CO2
+						</td>
+						<td width="6%">VOC
+						</td>
+						<td width="10%">Date From
+						</td>
+						<td width="10%">Date to
+						</td>
+        </tr>
+        <tr>
+            <td id="sq">waiting...</td>
+            <td id="by">waiting...</td>
+            <td id="wt">waiting...</td>
+            <td id="te">waiting...</td>
+            <td id="lt">waiting...</td>
+            <td id="pe">waiting...</td>
+            <td id="hy">waiting...</td>
+						<td id="qy">waiting...</td>
+						<td id="rs">waiting...</td>
+						<td id="co">waiting...</td>
+						<td id="vo">waiting...</td>
+						<td id="df"></td>
+						<td id="dt"></td>
+        </tr>
+        </table>
+    </div>
+    <br>
+         <table id='table1'>
+        <tr>
+            <td width="90%"><canvas id="canvasUpper" width="900" height="250"></canvas></td>
+            <td width="10%">
+						<input type="radio" checked onClick = "canvasLoad('wt','canvasUpper')" id="weightSela" name="chartSela" value="weightSela">
+						<label for="weightSela">Abs Weight</label><br>
+						<input type="radio" onClick="canvasLoad('dw','canvasUpper')" id="dwSela" name="chartSela" value="dwSela">
+						<label for="dwSela">Diff weight</label><br>
+						<input type="radio" onClick = "canvasLoad('tp','canvasUpper')" id="tempSela" name="chartSela" value="tempSela">
+						<label for="tempSela">Temperature</label><br>
+						<input type="radio" onClick = "canvasLoad('hm','canvasUpper')" id="humidSela" name="chartSela" value="humidSela">
+						<label for="humidSela">Humidity</label><br>
+						<input type="radio" onClick = "canvasLoad('lt','canvasUpper')" id="lightSela" name="chartSela" value="lightSela">
+						<label for="lightSela">Light</label><br>
+						<input type="radio" onClick = "canvasLoad('c2','canvasUpper')" id="co2Sela" name="chartSela" value="co2Sela">
+						<label for="co2Sela">CO2</label><br>
+						<input type="radio" onClick = "canvasLoad('ps','canvasUpper')" id="pressSela" name="chartSela" value="pressSela">
+						<label for="pressSela">Pressure</label><br>
+						<input type="radio" onClick="canvasLoad('qu','canvasUpper')" id="qualSela" name="chartSela" value="qualSela">
+						<label for="qualSela">Comms quality</label><br>
+						<input type="radio" onClick="canvasLoad('ri','canvasUpper')" id="riSela" name="chartSela" value="riSela">
+						<label for="riSela">RSSI</label><br>
+						<input type="radio" onClick="canvasLoad('vt','canvasUpper')" id="vtSela" name="chartSela" value="vtSela">
+						<label for="vtSela">Voltage</label><br><br>
+            </td>
+        </tr>
+        <tr>
+						<td width="90%"><canvas id="canvasLower" width="900" height="250"></canvas></td>
+            <td><input type="radio" onClick = "canvasLoad('wt','canvasLower')" id="weightSelb" name="chartSelb" value="weightSelb"> 
+						<label for="weightSelb">Abs Weight</label><br>
+						<input type="radio" onClick="canvasLoad('dw','canvasLower')" id="dwSelb" name="chartSelb" value="dwSelb">
+						<label for="dwSelb">Diff weight</label><br>
+						<input type="radio" checked onClick = "canvasLoad('tp','canvasLower')" id="tempSelb" name="chartSelb" value="tempSelb">
+						<label for="tempSelb">Temperature</label><br>
+						<input type="radio"  onClick = "canvasLoad('hm','canvasLower')" id="humidSelb" name="chartSelb" value="humidSelb">
+						<label for="humidSelb">Humidity</label><br>
+						<input type="radio" onClick = "canvasLoad('lt','canvasLower')" id="lightSelb" name="chartSelb" value="lightSelb">
+						<label for="lightSelb">Light</label><br>
+						<input type="radio" onClick = "canvasLoad('c2','canvasLower')" id="co2Selb" name="chartSelb" value="co2Selb">
+						<label for="co2Selb">CO2</label><br>
+						<input type="radio" onClick = "canvasLoad('ps','canvasLower')" id="pressSelb" name="chartSelb" value="pressSellb">
+						<label for="pressSelb">Pressure</label><br>
+						<input type="radio" onClick="canvasLoad('qu','canvasLower')" id="qualSelb" name="chartSelb" value="qualSelb">
+						<label for="qualSelb">Comms quality</label><br>
+						<input type="radio" onClick="canvasLoad('ri','canvasLower')" id="riSelb" name="chartSelb" value="riSelb">
+						<label for="riSelb">RSSI</label><br>
+						<input type="radio" onClick="canvasLoad('vt','canvasLower')" id="vtSelb" name="chartSelb" value="vtSelb">
+						<label for="vtSelb">Voltage</label><br>
+            </td>
+        </tr>
+        </table>
+   
+    <script type="text/javascript">
+
+    function canvasLoad(select,cVas)
+    {
+			const	dFormat = 'MMM D hA';
+						switch(select)
+						{
+							case "wt" :
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata2,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'Grams'
+														},
+														ticks: {
+															max: 20000,
+															min: 14000
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: 
+														{
+															displayFormats: {hour: dFormat}
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "tp" : 
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata3,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'Degrees C'
+														},
+														ticks: {
+															max: 50,
+															min: 0
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: 
+														{
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "hm" :
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata6,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'Relative %'
+														},
+														ticks: {
+															max: 95,
+															min: 10
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "lt" : 
+							{
+							var lineGraph = new Chart(cVas,
+							{
+											type: 'line',
+											data: chartdata4,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'Lux'
+														},
+														type: 'linear',
+														ticks: {
+															max: 10000,
+															min: 0
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});				
+							}
+							break;
+							case "c2" : 
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata9,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'ppm'
+														},
+														ticks: {
+															max: 8000,
+															min: 400
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "ps" : 
+							{
+							var lineGraph = new Chart(cVas,
+
+										{
+											type: 'line',
+											data: chartdata5,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'mBar'
+														},
+														ticks: {
+															max: 1050,
+															min: 950
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+
+							}
+							break;
+							case "qu" :
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata7,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'Received packets % (1 hour moving average)'
+														},
+														ticks: {
+															max: 100,
+															min: 0
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "ri":
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata8,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'dBm'
+														},
+														ticks: {
+															max: -70,
+															min: -150
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "dw":
+							{
+							var lineGraph = new Chart(cVas,
+										{
+											type: 'line',
+											data: chartdata10,
+											options: {
+												scales: {
+													yAxes: [{
+														scaleLabel: {
+															display: true,
+															labelString: 'ml/hour'
+														},
+														ticks: {
+															max: 2500,
+															min: -200
+														}
+													}],
+													xAxes: [{
+														type: 'time',
+														time: {
+															displayFormats: { hour: dFormat }
+														}
+													}]
+												}
+											}
+										});
+							}
+							break;
+							case "vt":
+							{
+							var lineGraph = new Chart(cVas,
+									{
+										type: 'line',
+										options: {
+
+											scales: {
+												yAxes: [{
+													scaleLabel: {
+														display: true,
+														labelString: 'Volts'
+													},
+													ticks: {
+														max: 3.6,
+														min: 2.8
+													}
+												}],
+												xAxes: [{
+													type: 'time',
+													time: {
+													displayFormats: { hour: dFormat }
+													}
+												}]
+											}
+										},
+										data: chartdata
+									});
+							}
+							break;
+						}
+    };
+     
+    var urlStr = 'get_data_average.php'
+        function getIt() 
+        {
+            $.ajax(
+            {
+                url: urlStr,
+                method: "GET",
+                success: function (data) 
+                {
+                    var data = JSON.parse(data);
+                    var timedate = [];
+                    var wt = [];
+                    var batt = [];
+                    var temp = [];
+                    var lt = [];
+                    var ps = [];
+                    var hm = [];
+                    var qu = [];
+                    var rs = [];
+                    var co = [];
+                    var vo = [];
+					var	wtAdd = [];
+
+                    const luxFactor = 10.52;
+                    const   wtThresh = 70;
+                    for (var i in data)
+					{
+                        timedate.push(data[i].reading_time);
+                        wt.push(data[i].weight);
+                        batt.push(data[i].battery);
+                        temp.push(data[i].temperature);
+                        lt.push(data[i].light);
+                        ps.push(data[i].pressure);
+                        hm.push(data[i].humidity);
+                        qu.push(data[i].quality);
+                        rs.push(data[i].rssi);
+                        co.push(data[i].CO2);
+                        vo.push(data[i].VOC);
+                        if(i > 0)	
+                        {
+                        wtAdd.push((data[i].weight - data[i-1].weight));  // get difference between successive values 
+                        }
+                        //if(wtAdd[i-1] < wtThresh) wtAdd[i-1] = 0;		// suppress small additions
+                    }
+
+                    O('by').innerHTML = toFixed(batt[0],2);     // shorten values for header table
+                    O('wt').innerHTML = toFixed(wt[0],0);
+                    O('te').innerHTML = toFixed(temp[0],1);
+                    O('lt').innerHTML = toFixed(lt[0],0);
+                    O('pe').innerHTML = toFixed(ps[0],0);
+                    O('hy').innerHTML = toFixed(hm[0],0);
+                    O('qy').innerHTML = toFixed(qu[0],0);
+                    O('sq').innerHTML = toFixed(sq[0],0);
+                    O('rs').innerHTML = toFixed(rs[0],0);
+                    O('co').innerHTML = toFixed(co[0],0);
+                    O('vo').innerHTML = toFixed(vo[0],0);
+										O('df').innerHTML = timedate[0];
+										O('dt').innerHTML = timedate[timedate.length-1];
+
+                    chartdata =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Battery:',
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            fill: true,
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: batt
+                        }
+                        ]
+                    };
+										chartdata2 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Weight:',
+                            fill: true,
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(245, 245, 245, 1)',
+                            hoverBorderColor: 'rgba(245, 245, 245, 1)',
+                            data: wt
+                        }
+                        ]
+                    };
+										chartdata3 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Temperature:',
+                            fill: true,
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: temp
+                        }
+                        ]
+                    };
+										chartdata4 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Light:',
+                            fill: true,
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: lt
+                        }
+                        ]
+                    };
+										chartdata5 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Pressure:',
+                            fill: true,
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: ps
+                        }
+                        ]
+                    };
+										chartdata6 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Humidity:',
+                            fill: true,
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: hm
+                        }
+                        ]
+                    };
+										chartdata7 =
+                    {
+                        labels: timedate,
+                        datasets: [
+                        {
+                            label: 'Quality:',
+                            fill: true,
+                           
+                            backgroundColor: 'rgba(245, 245, 245, 0.5)',
+                            borderColor: 'blue',
+                            borderWidth: '1',
+                            pointStyle: 'circle',
+                            radius: '1',
+                            hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+                            hoverBorderColor: 'rgba(200, 200, 200, 1)',
+                            data: qu
+                        }
+                        ]
+                    };
+										chartdata8 =
+									{
+										labels: timedate,
+										datasets: [
+											{
+												label: 'RSSI:',
+												fill: true,
+                                               
+												backgroundColor: 'rgba(245, 245, 245, 0.5)',
+												borderColor: 'blue',
+												borderWidth: '1',
+												pointStyle: 'circle',
+												radius: '1',
+												hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+												hoverBorderColor: 'rgba(200, 200, 200, 1)',
+												data: rs
+											}
+										]
+									};
+										chartdata9 =
+									{
+										labels: timedate,
+										datasets: [
+											{
+												label: 'CO2:',
+												fill: true,
+                                               
+												backgroundColor: 'rgba(245, 245, 245, 0.5)',
+												borderColor: 'blue',
+												borderWidth: '1',
+												pointStyle: 'circle',
+												radius: '1',
+												hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+												hoverBorderColor: 'rgba(200, 200, 200, 1)',
+												data: co
+											}
+										]
+									};
+										chartdata10 =
+									{
+										labels: timedate,
+										datasets: [
+											{
+												label: 'Differential weight:',
+												fill: true,
+                       
+												backgroundColor: 'rgba(230, 230, 230, 0.5)',
+												borderColor: 'blue',
+												borderWidth: '1',
+												pointStyle: 'circle',
+												radius: '1',
+												hoverBackgroundColor: 'rgba(200, 200, 200, 1)',
+												hoverBorderColor: 'rgba(200, 200, 200, 1)',
+												data: wtAdd
+											}
+										]
+									};               
+						},
+                error: function (data) 
+                {
+                        console.log(data);
+                }
+            });
+					counter = 0;					
+        };
+			getIt();
+
+			function toFixed(value, precision) 
+			{
+					var power = Math.pow(10, precision || 0);
+					return String(Math.round(value * power) / power);
+			}
+    </script>
+    
+    <script>
+        var counter = 0;
+        var sequenceOld;
+        var sqTemp = 'waiting...';
+        setInterval("showTime(O('ct'))", 1000)
+        function showTime(object) {
+            counter += 1
+            var date = new Date()
+            object.innerHTML = date.toTimeString().substr(0, 8)
+            O('sq').innerHTML = sqTemp + "/" + counter.toString(10)
+        }
+    </script>
+    </div>
+</body>
+</html>
