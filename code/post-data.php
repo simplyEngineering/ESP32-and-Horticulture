@@ -1,6 +1,6 @@
 <?php
 /*
-Copyright 2021 Stuart A Spray -  'simplyEnginerin'
+Copyright 2021 Stuart A Spray -  'simplyEnginering'
 With elements by  Rui Santos https://RandomNerdTutorials.co
 */
 
