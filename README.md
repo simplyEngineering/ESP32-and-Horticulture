@@ -25,3 +25,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |   |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 |---|:--|
+
+|<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg width="100%">|A data acquisition, WEB server, client and controller module|
+!---|:--|
+
