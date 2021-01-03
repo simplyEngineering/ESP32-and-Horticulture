@@ -17,7 +17,7 @@ For the purpose of this project and with the cooperation of a local tomato growe
 
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 
-|<image src = "images/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.
+|<image src = "images/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.|
 |---|:--|
 
 # System Overview
@@ -26,6 +26,6 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |   |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 |---|:--|
 
-|<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="90%">|A data acquisition, WEB server, client and controller module.
-Serves an interactive monitoring and control page on the local network (below left) and uploads parametric measurements via a PHP interface to a public (secured) SQL server (see sample database data list and derived chart below centre and right).
+|<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="50%">|A data acquisition, WEB server, client and controller module.
+Serves an interactive monitoring and control page on the local network (below left) and uploads parametric measurements via a PHP interface to a public (secured) SQL server (see sample database data list and derived chart below centre and right).|
 
