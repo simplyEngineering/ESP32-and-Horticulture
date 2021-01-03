@@ -1,4 +1,7 @@
 <?php
+/*
+copyright 2020 Stuart A Spray - 'simplyEngineering'
+*/
 require("config.php");
 // weight is set to 99999 if transmitter detects a weight spike
 // where id%30=0
