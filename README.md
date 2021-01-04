@@ -35,7 +35,17 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |:--|---|---|
 |<image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="100%">|<image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg" width="100%">|<image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg" width="100%">|
 |:---|
-|Some word here|
+|Some words here|
+	
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
 
 
 |Data acquisition, WEB server, WEB client and controller module|
