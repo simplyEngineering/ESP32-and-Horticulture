@@ -33,7 +33,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |Data acquisition and LoRa transmitter Module|...... Internal|...... In-situ|
 |:--|---|---|
-|<image src="images/mk2%20sensors%20lora%20transmitter.jpg">|<image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg">|<image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg">|
+|<image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="70%">|<image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg" width="100%">|<image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg" width="100%">|
 
 
 |Data acquisition, WEB server, WEB client and controller module|
