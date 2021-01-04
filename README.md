@@ -35,12 +35,12 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td>Data acquisition and LoRa transmitter Module</td><td>...... Int-situ</td><td>...... Internal</td>
 	</tr>
 	<tr>
-		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="100%"></td>
+		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="70%"></td>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg" width="100%"></td>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg" width="100%"></td>	
 	</tr>
 	<tr>
-		<td colspan="3"> Some words here</td>
+		<td colspan="3">Some words here</td>
 	</tr>
 </table>
 
