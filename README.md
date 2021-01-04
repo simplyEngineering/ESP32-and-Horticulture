@@ -30,10 +30,17 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |The system structure is based on a star network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central gateway using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The gateway provides an internet path via a WiFi router (landline or wireless) to a public  SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes. |
 
 # The Modules
+<table>
+	<tr>
+		<td>Data acquisition and LoRa transmitter Module</td><td>...... Int-situ</td><td>...... Internal</td>
+	</tr>
+	<tr>
+		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="100%"></td>
+		<td><image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg" width="100%"></td>
+		<td><image src="images/mk2%20sensors%20lora%20transmitte%20internal.jpg" width="100%"></td>	
+	</tr>
+</table>
 
-|Data acquisition and LoRa transmitter Module|...... Int-situ|...... Internal|
-|:--|---|---|
-|<image src="images/mk2%20sensors%20lora%20transmitter.jpg" width="100%">|<image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg" width="100%">|<image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg" width="100%">|
 |:---|
 |Some words here|
 	
