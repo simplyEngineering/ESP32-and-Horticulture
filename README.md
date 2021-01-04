@@ -24,10 +24,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |---|:--|
 |<image src = "images/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.|
 
-# System Overview
 
-
-|   |
+|System Overview|
 |:--|
 |The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 
