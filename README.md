@@ -42,9 +42,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	<tr>
 		<td colspan="3">This module adopts a Heltec WiFi LoRa 32 (V2)  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
 		It has a self-contained micro-USB serial port for uploading and may be used under either the Espressif IoT Development or Arduino frameworks.
-		Power management is on-board (can interface directly with a LiPo) and communicates via conventional WiFi and LoRa at 868MHz. ?? GPIO pins are available with I2C/SPI busses.
-		
-		</td>
+		Power management is on-board (can interface directly with a LiPo) and communicates via conventional WiFi and LoRa at 868MHz. ?? GPIO pins are available with 			I2C/SPI busses.</td>
 	</tr>
 </table>
 
