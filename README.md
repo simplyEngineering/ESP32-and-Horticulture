@@ -31,8 +31,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 # The Modules
 
-|Data acquisition and LoRa transmitter Module|
-|:--|
+|Data acquisition and LoRa transmitter Module|...... Internal|...... In-situ|
+|:--|---|---|
 |<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="120%">|
 
 
