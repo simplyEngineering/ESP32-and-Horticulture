@@ -40,7 +40,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg"></td>	
 	</tr>
 	<tr>
-		<td colspan="3">Some words here</td>
+		<td colspan="3">This module adopts a Heltec WiFi LoRa 32 (V2)  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
+		It has a self-contained micro-USB serial port for uploading and may be used under either the Espressif IoT Development or Arduino frameworks.</td>
 	</tr>
 </table>
 
