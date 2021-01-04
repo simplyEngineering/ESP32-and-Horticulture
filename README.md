@@ -31,8 +31,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 # The Modules
 <table>
-	<tr>
-		<td>**Data acquisition and LoRa transmitter Module.....**</td><td>**..... Int-situ**</td><td>**..... Internal**</td>
+	<tr style = "font-weight:bold">
+		<td>Data acquisition and LoRa transmitter Module.....</td><td>..... Int-situ</td><td>..... Internal</td>
 	</tr>
 	<tr>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
