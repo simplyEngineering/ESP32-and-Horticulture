@@ -2,8 +2,6 @@
 
 # The Project
 
-simplyEngineering/MHZ-14-PWM-by-Interrupt
-
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 This document identfies experimental hardware and software elements employed at various points in the project over a considerable period. Photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings are presented (with attributions where appropriate). Whilst these elements are valid in their own right they are illustrative only and it should not be asumed that they directly relateable.  However, I would be delighted to provide any further explanatory information on request.
@@ -33,7 +31,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |Data acquisition, WEB server, WEB client and controller module|   |
 |---|:--|
-|<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="120%">|A data acquisition, WEB server, WEB client and controller module. Based on a single ESP8266 acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus with CO2 measurements made by interrupt driven PWM techniques.  (See ????). The WEB server component of the ESP8266 generates an interactive monitoring and control GUI on the local WiFi network (below left and see code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>) and uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public (secured) SQL server (see sample database data list below left). SQL data is subsequently accessed via a PHP page (see <a href="web/get_data.php"> code</a>) to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. |
+|<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="120%">|A data acquisition, WEB server, WEB client and controller module. Based on a single ESP8266 acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus with CO2 measurements made by interrupt driven PWM techniques.  (See <a href="https://github.com/simplyEngineering/MHZ-14-PWM-by-Interrupt">MHZ-14-PWM-by-Interrupt</a>). The WEB server component of the ESP8266 generates an interactive monitoring and control GUI on the local WiFi network (below left and see code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>) and uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public (secured) SQL server (see sample database data list below left). SQL data is subsequently accessed via a PHP page (see <a href="web/get_data.php"> code</a>) to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. |
 
 |Interactive GUI|Sample SQL data|Sample derived chart|
 |---|---|---|
