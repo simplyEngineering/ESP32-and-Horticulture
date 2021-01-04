@@ -27,7 +27,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |System Overview|
 |:--|
-|The system structure is based on a star network,  each host (polytunnel) having its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central hub using low-power wide-area network (LPWAN) protocols.  The hub, in turn is internet connected via a WiFi router to a public (secured)  SQL database server consolidating all host-originated parametric measurements. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
+|The system structure is based on a star network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central gateway using low-power wide-area network (<a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a>) protocols.  It should be noted that the ESP32 series of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The gateway provides an internet path via a WiFi router (landline or wireless) to a public  SQL database server where all host-originated parametric measurements are consolidated. Where autonomous control is required local measurements are used to control various aspects of the Polytunnel environments whilst the remote database may be queried for analytical purposes. |
 
 |Data acquisition, WEB server, WEB client and controller module|
 |:--|
