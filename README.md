@@ -41,6 +41,10 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg"></td>	
 	</tr>
 	<tr>
+		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"><br><b>In-situ</b></td>
+		<td><image src="images/weigh%20platform.s.jpg"><br><b>Load cell platform</b></td>	
+	</tr>
+	<tr>
 		<td colspan="2">This module adopts a Heltec WiFi LoRa 32 (V2)  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
 		It has a self-contained micro-USB serial port for uploading and may be used under either the Espressif IoT Development or Arduino frameworks.
 		Power management is on-board (can interface directly with a LiPo) and communicates via conventional WiFi and LoRa at 868MHz. 30+ GPIO pins are available with 			I2C/SPI busses. Its 128x64 OLED display is redundant for this module.
@@ -55,10 +59,6 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	<tr>
 		<td><image width="70%" src="images/mk2%20%20lora%20receiver%20wifi%20client.jpg"></td>
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
-	</tr>
-	<tr>
-		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"><br><b>In-situ</b></td>
-		<td><image src="images/weigh%20platform.s.jpg"><br><b>Load cell platform</b></td>	
 	</tr>
 	<tr>	
 		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link from the transmitter and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  Visible on the OLED display are the temperature, pressure, humidity, light and weight measurements as well as some supervisory data including the RSSI (Radio Signal Strength Indicator), Battery voltage, Message ID (a transmitter generated serial number to identify missing packets), a 'Wait' countdown timer to indicate system activity  and a 'Post' counter to indicate the number of previous attempts to post the message. (an indicator of link quality).  See code <a href="code/LoRaReceiver_T_git.ino">here.</td>
