@@ -53,7 +53,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Internal</b></td>
 	</tr>
 	<tr>
-		<td><div><image text-align = "center" width="60%" src="images/mk2%20%20lora%20receiver%20wifi%20client.jpg"></div></td>
+		<td><div text-align = "center"><image width="60%" src="images/mk2%20%20lora%20receiver%20wifi%20client.jpg"></div></td>
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>
