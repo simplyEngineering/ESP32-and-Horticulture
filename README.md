@@ -29,12 +29,12 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 |System Overview|
 |:--|
-|The system structure is based on a star network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central gateway using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The gateway provides an internet path via a WiFi router (landline or wireless) to a public  SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes. |
+|The system structure is based on a star/hub network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts within WiFi range (local hosts) communicate directly with the hub whilst those beyond WiFi range (remote hosts) report to a central gateway using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The gateway provides an internet path via a WiFi router (landline or wireless) to a public  SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes. |
 <br><br>
 # The Modules
 <table>
 	<tr>
-		<td><b>Data acquisition and LoRa transmitter Module.....</b></td><td><b>..... Internal</b></td>
+		<td><b>Data acquisition and LoRa transmitter Module - remote host .....</b></td><td><b>..... Internal</b></td>
 	</tr>
 	<tr>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
@@ -67,7 +67,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 <br><br>
 
-|Data acquisition, WEB server, WEB client and controller module|
+|Data acquisition, WEB server, WEB client and controller module - local host|
 |:--|
 |<image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg" width="120%">|
 |Based on a single ESP8266 acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus with CO2 measurements made by interrupt driven PWM techniques.  (See <a href="https://github.com/simplyEngineering/MHZ-14-PWM-by-Interrupt">MHZ-14-PWM-by-Interrupt</a> repository). The weight parameter is used as an analogue of water content, used by the weight control loop. Noise reduction of the weight measurement is carried out by  digital filtering techniques (see code listings <a href="https://github.com/simplyEngineering/Loadcell-Cleaning-the-output">Loadcell-Cleaning-the-output</a> repository.  
