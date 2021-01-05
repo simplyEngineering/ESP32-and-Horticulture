@@ -30,7 +30,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |System Overview|
 |:--|
 |The system structure is based on a star network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts beyond WiFi range report to a central gateway using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The gateway provides an internet path via a WiFi router (landline or wireless) to a public  SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes. |
-
+<br><br>
 # The Modules
 <table>
 	<tr>
@@ -51,7 +51,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		The primary purpose of this module is to acquire temperature, relative humidity, light, atmospheric pressure and weight measurements, assemble the data into packets and transmit them over a LoRa link to its receiver counterpart at the gateway.  See code <a href="code/vegtrug_monitor8_debug_git.ino">here</a></td>
 	</tr>
 </table>
-
+<br><br>
 <table>
 	<tr>
 		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Internal</b></td>
@@ -65,8 +65,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	</tr>
 </table>
 
-
-
+<br><br>
 
 |Data acquisition, WEB server, WEB client and controller module|
 |:--|
