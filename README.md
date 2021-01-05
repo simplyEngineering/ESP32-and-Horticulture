@@ -61,7 +61,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>
-		<td><image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"</td>
+		<td width="50%"><image src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"</td>
 		<td><image src="images/weigh%20platform.s.jpg"</td>	
 	</tr>
 	<tr>	
