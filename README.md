@@ -78,3 +78,5 @@ Bang-bang control loops are provided for temperature, humidity, weight (pump con
 |---|---|---|
 |<image src = "web/VegTrug%20Control%20Panel.jpg" width="100%">|<image src="web/SQL%20data%20list.png" width = "100%">|<image src="web/period%20cost%20calcs2.jpg" width = "100%">|
 
+
+## Watch this space for further material
