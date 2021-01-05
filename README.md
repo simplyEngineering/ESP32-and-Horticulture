@@ -56,7 +56,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>
-		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  
+		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  Visible on the OLED display are the temperature, pressure, humidity and weight measurements as well as the RSSI (Radio Signal Strength Indicator)
 	</tr>
 </table>
 
