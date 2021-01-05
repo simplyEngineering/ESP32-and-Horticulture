@@ -49,17 +49,14 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 <table>
 	<tr>
-		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Int-situ</b></td>
+		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Internal</b></td>
 	</tr>
 	<tr>
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client.jpg"></td>
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>
-		<td colspan="2">This module adopts a Heltec WiFi LoRa 32 (V2)  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
-		It has a self-contained micro-USB serial port for uploading and may be used under either the Espressif IoT Development or Arduino frameworks.
-		Power management is on-board (can interface directly with a LiPo) and communicates via conventional WiFi and LoRa at 868MHz. 30+ GPIO pins are available with 			I2C/SPI busses. Its 128x64 OLED display is redundant for this module.
-		The primary purpose of this module is to acquire temperature, relative humidity, light, atmospheric pressure and weight measurements, assemble the data into packets and transmit them over a LoRa link to its receiver counterpart at the gateway.</td>
+		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  
 	</tr>
 </table>
 
