@@ -57,8 +57,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>
-		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg">In-situ</td>
-		<td><image src="images/weigh%20platform.s.jpg">Load cell platform</td>	
+		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"><br><b>In-situ</b></td>
+		<td><image src="images/weigh%20platform.s.jpg"><br><b>Load cell platform</b></td>	
 	</tr>
 	<tr>	
 		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link from the transmitter and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  Visible on the OLED display are the temperature, pressure, humidity, light and weight measurements as well as some supervisory data including the RSSI (Radio Signal Strength Indicator), Battery voltage, Message ID (a transmitter generated serial number to identify missing packets), a 'Wait' countdown timer to indicate system activity  and a 'Post' counter to indicate the number of previous attempts to post the message. (an indicator of link quality).  See code <a href="code/LoRaReceiver_T_git.ino">here.</td>
