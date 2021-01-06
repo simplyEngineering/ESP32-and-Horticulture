@@ -81,12 +81,12 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 <table>
 <tr>
 	<th>The basic 'VegTrug' frame.</th>
-	<th>The basic 'VegTrug' frame in-situ.</th>
+	<th>The VegTrug' frame in-situ.</th>
 	<th>The basic 'VegTrug' frame prior to equipping with monitoring and control systems.</th>
 </tr>
 <tr>
 	<td><image src = "images/Vegtrug frame with cover.jpg" width = "50%"></td>
-	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg width = "50%"></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "50%"></td>
 	<td><image src = "images/Vegtrug frame with cover.jpg" width = "50%"></td>
 </tr>
 </table>
