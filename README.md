@@ -81,8 +81,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 <table>
 <tr>
 	<th>The basic 'VegTrug' frame.</th>
-	<th>The 'VegTrug' frame in-situ.</th>
-	<th>The 'VegTrug' frame showing ventlation pipes.</th>
+	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
+	<th>The 'VegTrug' frame showing ventilation pipes.</th>
 </tr>
 <tr>
 	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
