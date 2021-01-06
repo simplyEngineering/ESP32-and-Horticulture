@@ -76,7 +76,7 @@ Bang-bang control loops are provided for temperature, humidity, weight (pump con
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 <table>
 <tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg" width = "50%"></td><td>The basic 'VegTrug' frame prior to equipping with monitoring and control systems.<\td>
+	<td><image src = "images/Vegtrug frame with cover.jpg" width = "50%"></td><td>The basic 'VegTrug' frame prior to equipping with monitoring and control systems.</td>
 </tr>
 </table>
 <br><br>
