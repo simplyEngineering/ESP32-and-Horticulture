@@ -68,11 +68,12 @@ For the purpose of this project and with the cooperation of a local tomato growe
 The WEB server component of the ESP8266 generates an interactive monitoring and control GUI on the local WiFi network (below left and see code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>), uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public SQL server (see sample database data list below centre). SQL data is subsequently accessed offline via a PHP page (see <a href="web/get_data.php"> code</a>) for analytical purposes and to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. 
 Bang-bang control loops are provided for temperature, humidity, weight (pump control) and ventilation, their outputs being interfaced by low-power isolating relays.|
 
+<br><br>
 
 <table>
 	<th><td>Interactive GUI</td><td>Sample SQL data</td><td>Sample derived chart</td></th>
 <tr>
-	<td><image src = "web/VegTrug%20Control%20Panel.jpg" width="100%"></td>
+	<td><image src ="web/VegTrug%20Control%20Panel.jpg" width="100%"></td>
 	<td><image src="web/SQL%20data%20list.png" width = "100%"></td>
 	<td><image src="web/period%20cost%20calcs2.jpg" width = "100%"></td>
 </tr>
