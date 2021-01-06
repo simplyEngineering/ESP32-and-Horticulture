@@ -19,12 +19,6 @@ For the purpose of this project and with the cooperation of a local tomato growe
 |   |   |
 |---|:--|
 |<image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "100%">|An example on-site polytunnel and outbuiding configuration|
-	
-To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
-
-|   |   |
-|---|:--|
-|<image src = "images/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.|
 
 
 |System Overview|
@@ -73,10 +67,58 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 |Based on a single ESP8266 acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus with CO2 measurements made by interrupt driven PWM techniques.  (See <a href="https://github.com/simplyEngineering/MHZ-14-PWM-by-Interrupt">MHZ-14-PWM-by-Interrupt</a> repository). The weight parameter is used as an analogue of water content, used by the weight control loop. Noise reduction of the weight measurement is carried out by  digital filtering techniques (see code listings <a href="https://github.com/simplyEngineering/Loadcell-Cleaning-the-output">Loadcell-Cleaning-the-output</a> repository.  
 The WEB server component of the ESP8266 generates an interactive monitoring and control GUI on the local WiFi network (below left and see code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>), uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public SQL server (see sample database data list below centre). SQL data is subsequently accessed offline via a PHP page (see <a href="web/get_data.php"> code</a>) for analytical purposes and to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. 
 Bang-bang control loops are provided for temperature, humidity, weight (pump control) and ventilation, their outputs being interfaced by low-power isolating relays.|
+<table>
+	<tr><th>Interactive GUI</th><th>Sample SQL data</th><th>Sample derived chart</th></tr>
+<tr>
+	<td><image src ="web/VegTrug%20Control%20Panel.jpg" width="100%"></td>
+	<td><image src="web/SQL%20data%20list.png" width = "100%"></td>
+	<td><image src="web/period%20cost%20calcs2.jpg" width = "100%"></td>
+</tr>
+	</table>
+<br><br>
+	
+To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
+<table>
+<tr>
+	<th>The basic 'VegTrug' frame.</th>
+	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
+	<th>The 'VegTrug' frame showing ventilation pipes.</th>
+</tr>
+<tr>
+	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
+	<td><image src = "images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg" width = "100%"></td>
+</tr>
+</table>
+<br><br>
 
-|Interactive GUI|Sample SQL data|Sample derived chart|
-|---|---|---|
-|<image src = "web/VegTrug%20Control%20Panel.jpg" width="100%">|<image src="web/SQL%20data%20list.png" width = "100%">|<image src="web/period%20cost%20calcs2.jpg" width = "100%">|
+## Ancillary modules
+
+<table>
+<tr>
+	<th>A simple stand-alone temperature/humidity/pressure/WEB server module</th>
+	<th>Stand-alone WEB page</th>
+	
+</tr>
+<tr>
+	<td><image src = "images/ESP8266%20BMP280%20I2C.jpg" width = "100%"></td>
+	<td><image src = "images/standalone%20module%20WEB%20page.png" width = "100%"></td>
+<tr>
+	<td colspan = "2">This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local network, generating  graphical data through web-socket protocols, avoiding complete re-writes of the web page each time the data is updated.  
+		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was off-scale!</td>
+</tr>
+</table>
+<br><br>
+<table>
+<tr>
+	<th colspan="2">A simple stand-alone temperature/humidity/pressure monitor</th>
+</tr>
+<tr>
+	<td><image src = "images/ESP32%20OLED%20HTML%20scrape.jpg" width = "100%"></td>
+	<td>This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local 		network, generating  graphical data through web-socket protocols, avoiding complete re-writes of the web page each time the data is updated.  
+		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was 		off-scale!</td>
+</tr>
+</table>
 
 
-## Watch this space for further material
+# Watch this space for further material
