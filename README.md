@@ -108,6 +108,18 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was off-scale!</td>
 </tr>
 </table>
+<br><br>
+<table>
+<tr>
+	<th>A simple stand-alone temperature/humidity/pressure monitor</th>
+</tr>
+<tr>
+	<td><image src = "images/ESP8266%20BMP280%20I2C.jpg" width = "100%"></td>
+<tr>
+	<td colspan = "2">This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local network, generating  graphical data through web-socket protocols, avoiding complete re-writes of the web page each time the data is updated.  
+		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was off-scale!</td>
+</tr>
+</table>
 
 
 # Watch this space for further material
