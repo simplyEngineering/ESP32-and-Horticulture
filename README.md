@@ -94,4 +94,17 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 ## Ancillary modules
 
+<table>
+<tr>
+	<th>A simple stand-alone temperature/humidity/pressure/WEB server module</th>
+	<th>Stand-alone WEB page</th>
+	
+</tr>
+<tr>
+	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
+</tr>
+</table>
+
+
 # Watch this space for further material
