@@ -101,7 +101,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	
 </tr>
 <tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
+	<td><image src = "images/ESP8266%20BMP280%20I2C.jpg" width = "100%"></td>
 	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
 </tr>
 </table>
