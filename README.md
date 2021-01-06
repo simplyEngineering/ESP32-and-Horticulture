@@ -19,12 +19,6 @@ For the purpose of this project and with the cooperation of a local tomato growe
 |   |   |
 |---|:--|
 |<image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "100%">|An example on-site polytunnel and outbuiding configuration|
-	
-To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
-
-|   |   |
-|---|:--|
-|<image src = "images/Vegtrug frame with cover.jpg" width = "50%">|The basic 'VegTrug' frame prior to equipping with monitoring and control systems.|
 
 
 |System Overview|
@@ -79,4 +73,11 @@ Bang-bang control loops are provided for temperature, humidity, weight (pump con
 |<image src = "web/VegTrug%20Control%20Panel.jpg" width="100%">|<image src="web/SQL%20data%20list.png" width = "100%">|<image src="web/period%20cost%20calcs2.jpg" width = "100%">|
 
 
+To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
+<table>
+<tr>
+	<td><image src = "images/Vegtrug frame with cover.jpg" width = "50%"></td><td>The basic 'VegTrug' frame prior to equipping with monitoring and control systems.<\td>
+</tr>
+</table>
+<br><br>
 ## Watch this space for further material
