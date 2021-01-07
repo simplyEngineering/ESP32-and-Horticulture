@@ -104,7 +104,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	<td><image src = "images/ESP8266%20BMP280%20I2C.jpg" width = "100%"></td>
 	<td><image src = "images/standalone%20module%20WEB%20page.png" width = "100%"></td>
 <tr>
-	<td colspan = "2">This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local network, generating  graphical data through web-socket protocols, avoiding complete re-writes of the web page each time the data is updated.  
+	<td colspan = "2">This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local network, generating  time-based graphical data of Temperature, Relative Humidity and Pressure.  By adopting web-socket protocols,  complete re-writes of the page after each data update are avoided resulting in a smooth glitch free display.  
 		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was off-scale!</td>
 </tr>
 </table>
@@ -115,8 +115,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </tr>
 <tr>
 	<td><image src = "images/ESP32%20OLED%20HTML%20scrape.jpg" width = "100%"></td>
-	<td>This is about the  simplest stand-alone ESP8266 environmental monitor which uses the BMP280 multi-transducer device on an I2C bus. It acts as a WEB server on the local 		network, generating  graphical data through web-socket protocols, avoiding complete re-writes of the web page each time the data is updated.  
-		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was 		off-scale!</td>
+	<td>However a WEB page is compiled, the raw data embedded within its HTML code can always be extracted and represented in different form.  The raw data embedded in the above WEB page can be analysed or 'scraped' so as to make it available for assembly into a different format or output in a different form.</td>
 </tr>
 </table>
 
