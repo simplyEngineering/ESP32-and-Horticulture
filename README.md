@@ -105,6 +105,20 @@ Bang-bang control loops are provided for temperature, humidity, weight (pump con
 See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.ino">here</a></td>
 </tr>
 </table>
+
+<br><br>
+
+<table>
+<tr>
+	<th cospan="2">A composite represention of greenhouse 'activity'</th>
+</tr>
+<tr>
+	<td><image src = "images/vegcam.jpg" ></td>
+	<td width = "20%">Being an active growing environment, simply having environmental data woud be incomplete without a pictorial view of whats actually going on on the ground (pot).</td>
+</tr>
+</table>
+
+<br><br>
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 <table>
 <tr>
