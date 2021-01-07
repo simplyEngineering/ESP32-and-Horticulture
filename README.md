@@ -118,7 +118,7 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 	</td>
 </tr>
 <tr>
-	<td><image src="images/mk1%20ESP32-CAM.jpg"></td>
+	<td><image src="images/mk1%20ESP32-CAM.jpg"><br>An ESP32-CAM module. The circular components are supply decoupling super-capacitors, necessary to provide the significant surge current when the camera is acquiring data.  Common failures of this module are caused by 'brownouts' resulting from inadequate supply stiffness.</td>
 </tr>
 </table>
 
