@@ -97,7 +97,7 @@ Bang-bang control loops are provided for temperature, humidity, weight (pump con
 <br><br>
 <table>
 <tr>
-	<th colspan="2">An alternative data presentation from the WEB page above</th>
+	<th colspan="2">A data display module</th>
 </tr>
 <tr>
 	<td><image src = "images/ESP32%20OLED%20HTML%20scrape.jpg" ></td>
