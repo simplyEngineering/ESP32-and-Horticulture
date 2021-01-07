@@ -31,8 +31,8 @@ bool  halfSec = false;
 bool  isConnected = false;
 unsigned long oldMillis = 0;
 String getTemp,getHumid,getWeight,getLight,getCO2,getPress = "";
-char ssid[] = "HUAWEI-F212";       // your network SSID (name)
-char password[] = "5Q0H0TAQRT1";  // your network key
+char ssid[] = "**********";       // your network SSID (name)
+char password[] = "*************";  // your network key
 WiFiClient client;
 #define TEST_HOST "192.168.8.108"
 
