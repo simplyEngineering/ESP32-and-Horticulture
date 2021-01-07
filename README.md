@@ -115,7 +115,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </tr>
 <tr>
 	<td><image src = "images/ESP32%20OLED%20HTML%20scrape.jpg" ></td>
-	<td width = "50%">However a WEB page is compiled, the raw data embedded within its HTML code can always be extracted and represented in different form.  The raw data embedded in the above WEB page can be analysed or 'scraped' so as to make it available for assembly into a different format or output through a different interface. The Heltec WiFi kit 32 (seen left atop a 'PowerAdd' battery) with its on-board 128x64 OLED display is a suitable candidate for the application of this technique, where selected parameters are 'scraped' from the HTML code of the above page (which contains more than just the BMP280 data)  and represented directly on the display. The particular beauty here lies in its simplicity of hardware: the ESP32 being the only component required.</td>
+	<td width = "40%">However a WEB page is compiled, the raw data embedded within its HTML code can always be extracted and represented in different form.  The raw data embedded in the above WEB page can be analysed or 'scraped' so as to make it available for assembly into a different format or output through a alternative interface. <br>The Heltec WiFi kit 32 (seen left atop a 'PowerAdd' battery) with its on-board 128x64 OLED display is a suitable candidate for the application of this technique, where selected parameters are 'scraped' from the HTML code of the above page (which contains more than just the BMP280 data)  and represented directly on the display. <br>The particular beauty here lies in its simplicity of hardware: the ESP32 being the only component required.</td>
 </tr>
 </table>
 
