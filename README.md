@@ -116,6 +116,9 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 	<td><image src = "images/vegcam.jpg" ></td>
 	<td width = "20%">Being an active growing environment, simply having environmental data woud be incomplete without a pictorial view of whats actually going on on the ground (pot). Using an ESP32-CAM images are acquired at regular intervals and uploaded to a public WEB server where they are made available as required.</td>
 </tr>
+<tr>
+	<td></td><td><image src="images/mk1%20ESP32-CAM.jpg"</td
+</tr>
 </table>
 
 <br><br>
