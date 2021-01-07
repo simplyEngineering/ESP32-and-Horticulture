@@ -22,11 +22,11 @@ This document identfies experimental hardware and software elements employed at 
 <br><br>	
 For the purpose of this project and with the cooperation of a local tomato grower having  polytunnels scattered over many hectares, a field operation was set up so that selected tunnels could be set up with appropriate monitoring and communication equipment (see later for details).
 
-|   |   |
-|---|:--|
-|<image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg" width = "100%">|An example on-site polytunnel and outbuiding configuration|
-
-
+<table>
+	<tr><th>An example on-site polytunnel and outbuiding configuration</th></tr>
+	<tr><td><image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg"></td></tr>
+<table>
+<br><br>
 |System Overview|
 |:--|
 |The system structure is based on a star/hub network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts within WiFi range (local hosts) communicate directly  with the hub via WiFi whilst those beyond WiFi range (remote hosts) report to a central hub using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The hub acts as a gateway providing an internet path via a WiFi router (landline or wireless) to an SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes. |
