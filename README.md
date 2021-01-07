@@ -113,12 +113,13 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 	<th colspan="2">A composite represention of greenhouse 'activity'</th>
 </tr>
 <tr>
-	<td><image src = "images/vegcam.jpg" ></td>
+	<td rowspan="0"><image src = "images/vegcam.jpg" ></td>
 	<td width = "30%">Being an active growing environment, simply having environmental data woud be incomplete without a pictorial view of whats actually going on on the 		ground (pot). Using an ESP32-CAM images are acquired at regular intervals and uploaded to a public WEB server where they are made available as required.<br>
-	<image src="images/mk1%20ESP32-CAM.jpg"</td>
+	</td>
 </tr>
-	
-
+<tr>
+	<td><image src="images/mk1%20ESP32-CAM.jpg"></td>
+</tr>
 </table>
 
 <br><br>
