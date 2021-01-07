@@ -111,7 +111,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 <br><br>
 <table>
 <tr>
-	<th colspan="2">A simple stand-alone temperature/humidity/pressure monitor</th>
+	<th colspan="2">An alternative data presentation from the WEB page above</th>
 </tr>
 <tr>
 	<td><image src = "images/ESP32%20OLED%20HTML%20scrape.jpg" width = "100%"></td>
