@@ -119,20 +119,7 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 </table>
 
 <br><br>
-To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
-<table>
-<tr>
-	<th>The basic 'VegTrug' frame.</th>
-	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
-	<th>The 'VegTrug' frame showing ventilation pipes.</th>
-</tr>
-<tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
-	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
-	<td><image src = "images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg" width = "100%"></td>
-</tr>
-</table>
-<br><br>
+
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 <table>
 <tr>
