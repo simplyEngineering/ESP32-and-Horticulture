@@ -47,7 +47,7 @@ This document identfies experimental hardware and software elements employed at 
 	</tr>
 	<tr>
 		<td colspan="2">This module adopts a <a href="https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_lora_32_V2.html">Heltec WiFi LoRa 32 (V2)</a>  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
-		It has a self-contained micro-USB serial port for uploading and may be used under either the Espressif IoT Development or Arduino frameworks.
+		It has a self-contained micro-USB serial port for uploading and may be used under either the <a href="https://github.com/espressif/esp-idf">Espressif IoT Development</a> or <a href="https://docs.platformio.org/en/latest/tutorials/espressif32/arduino_debugging_unit_testing.html#tutorial-espressif32-arduino-debugging-unit-testing">Arduino</a> frameworks.
 		Power management is on-board (can interface directly with a LiPo) and communicates via conventional WiFi and LoRa at 868MHz. 30+ GPIO pins are available with 			I2C/SPI busses. Its 128x64 OLED display is redundant for this module.
 		The primary purpose of this module is to acquire temperature, relative humidity, light, atmospheric pressure and weight measurements, assemble the data into packets and transmit them over a LoRa link to its receiver counterpart at the gateway. The loadcell platform uses a pair of 10kG strain guages linked to a bridge amplifier and 16-bit ADC via an I2C bus.  One of the strain guages can just be seen in the photograph, sandwiched between the upper and lower platforms, the jack screws being used for levelling purposes. See code <a href="code/dataLogger6_noSleep3_compensate3_noCO2_git.ino">here</a></td>
 	</tr>
