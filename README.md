@@ -1,10 +1,10 @@
-# ESP32 and ESP8266 microcontrollers in a horticultural setting - a working example.
+# ESP32 and ESP8266 microcontrollers in horticulture - a working example.
 
 # The Project
 
 Whatever the crop, balancing yield and quality against cost and time  demands tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
-This document identfies experimental hardware and software elements employed at various points in the project over a considerable period. Photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings are presented (with attributions where appropriate). 
+This document identfies experimental hardware and software elements employed at various points in the project over an extended period. Photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings are presented (with attributions where appropriate). 
 
 <b>Whilst these elements are valid in their own right they are illustrative only and it should not be assumed that they are either complete or directly relateable.  However, I would be delighted to provide any further explanatory information on request.</b>
 
@@ -23,7 +23,7 @@ This document identfies experimental hardware and software elements employed at 
 
 <table>
 	<tr><th>System Overview</th></tr>
-	<tr><td>The system structure is based on a star/hub network,  each host (polytunnel) being equipped with its own data acquisition, communications and optionally, control capabilities. Hosts within WiFi range (local hosts) communicate directly  with the hub via WiFi whilst those beyond WiFi range (remote hosts) report to a central hub using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The hub acts as a gateway providing an internet path via a WiFi router (landline or wireless) to an SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes.</td></tr>
+	<tr><td>The system structure is based on a star/hub network,  each host (polytunnel) being equipped with its own data acquisition, communications and optional control capabilities. Hosts within WiFi range (local hosts) communicate directly  with the hub via WiFi whilst those beyond WiFi range (remote hosts) report to a central hub using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The hub acts as a gateway providing an internet path via a WiFi router (landline or wireless) to an SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes.</td></tr>
 	<tr><td>For the purpose of this project and with the cooperation of a local tomato grower having  polytunnels scattered over many hectares, a field operation was set up so that selected tunnels could be set up with appropriate monitoring and communication equipment.</td><tr>
 </table>
 <table>
