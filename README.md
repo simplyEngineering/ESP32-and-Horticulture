@@ -128,7 +128,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 <table>
 	<tr><th>Heater and Humidifier</th><th>Extract ventilation fan</th></tr>
-	<tr><td><image src = "images/humidifierHeater.jpg" width = "100%"><br><br>  stuff here</td><td><image src = "images/ExtractorFan.jpg" width = "100%"><br><br>more stuff here</td></tr>
+	<tr><td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (right) is a generic 2.8l device.  Both are controlled via isolating relays from the ESP8266 controller.</td><td><image src = "images/ExtractorFan.jpg" width = "100%"><br><br>more stuff here</td></tr>
 </table>
 
 # Watch this space for further material
