@@ -113,22 +113,6 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 
 <br><br>
 
-<table>
-<tr>
-	<th colspan="2">A composite represention of greenhouse 'activity'</th>
-</tr>
-<tr>
-	<td rowspan="0"><image src = "images/InsideVegBot.jpg" ></td>
-	<td width = "30%">Being an active growing environment, simply having environmental data woud be incomplete without a pictorial view of whats actually going on - seeing is believing! Using an ESP32-CAM images are acquired at regular intervals and uploaded to a public WEB server where they are made available as required.<br>
-	</td>
-</tr>
-<tr>
-	<td><image src="images/mk1%20ESP32-CAM.jpg"><br>An ESP32-CAM module. The circular components are supply decoupling super-capacitors, necessary to provide the significant surge current when the camera is acquiring data.  Common failures of this module are caused by 'brownouts' resulting from inadequate supply stiffness.</td>
-</tr>
-</table>
-
-<br><br>
-
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>, a free-standing timber structure having a small footprint, a constraint due its unusual location within the cockpit of a dry-docked sailing yacht.
 <table>
 <tr>
@@ -143,6 +127,19 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </tr>
 </table>
 <br><br>
+<table>
+<tr>
+	<th colspan="2">A composite represention of greenhouse 'activity'</th>
+</tr>
+<tr>
+	<td rowspan="0"><image src = "images/InsideVegBot.jpg" ></td>
+	<td width = "30%">Being an active growing environment, simply having environmental data woud be incomplete without a pictorial view of whats actually going on - seeing is believing! Using an ESP32-CAM images are acquired at regular intervals and uploaded to a public WEB server where they are made available as required.<br>
+	</td>
+</tr>
+<tr>
+	<td><image src="images/mk1%20ESP32-CAM.jpg"><br>An ESP32-CAM module. The circular components are supply decoupling super-capacitors, necessary to provide the significant surge current when the camera is acquiring data.  Common failures of this module are caused by 'brownouts' resulting from inadequate supply stiffness.</td>
+</tr>
+</table>
 
 <br><br><br>
 # Watch this space for further material
