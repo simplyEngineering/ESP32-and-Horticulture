@@ -126,5 +126,10 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </tr>
 </table><br><br>
 
+<table>
+	<tr><th>Heater and Humidifier</th><th>Extract ventilation fan</th></tr>
+	<tr><td></td><td></td></tr>
+</table>
+
 # Watch this space for further material
 ### <a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
