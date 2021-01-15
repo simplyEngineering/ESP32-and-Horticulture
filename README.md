@@ -113,18 +113,16 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 
 <br><br>
 # the 'VegBot' R&D lab
-<br>
-To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>. This structure has a small footprint, alowing it to be  unusually located within the cockpit of 'Lena Mary', my dry-docked Moody 40 sailing yacht.
+<br><br>
+To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>. This structure has a small footprint, alowing it to be  unusually located within the cockpit of 'Lena Mary', my dry-docked Moody 40 sailing yacht stripped of its steering gear.
 <table>
 <tr>
 	<th>The basic 'VegTrug' frame.</th>
 	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
-	<th>The 'VegTrug' frame showing ventilation pipes.</th>
 </tr>
 <tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg" width = "100%"></td>
-	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
-	<td><image src = "images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg" width = "100%"></td>
+	<td><image src = "images/Vegtrug frame with cover.jpg"></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "40%"></td>
 </tr>
 </table><br><br>
 
