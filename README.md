@@ -121,8 +121,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
 </tr>
 <tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg"></td>
-	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "40%"></td>
+	<td><image src = "images/Vegtrug frame with cover.jpg" width = 50%></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
 </tr>
 </table><br><br>
 
