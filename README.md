@@ -128,7 +128,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 <table>
 	<tr><th>Heater and Humidifier</th><th>Extract ventilation fan</th></tr>
-	<tr><td><image src = "images/humidifierHeater.jpg" width = "50%"></td><td></td></tr>
+	<tr><td><image src = "images/humidifierHeater.jpg" width = "90%"></td><td><image src = "images/ExtractorFan.jpg" width = "90%"></td></tr>
 </table>
 
 # Watch this space for further material
