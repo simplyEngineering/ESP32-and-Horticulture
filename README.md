@@ -147,10 +147,18 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </table>
 <table>
 	<tr><th colspan="2%">The VegBot Control Centre and Camera</th></tr>
-	<tr><td><image src="images/controlCentreCameraTubes.jpg"><td width="50%">The Control Centre comprising (from bottom to top):<ul><li>'Poweradd' backup battery.</li>
+	<tr><td><image src="images/controlCentreCameraTubes.jpg"><td width="50%">The Control Centre comprising (from bottom to top) with recirculating and ventilation pipes behind:
+		<ul>
 		<li>'Poweradd' backup battery.</li>
 		<li>8-port USB power supply.</li>
-		<li>Master module with transducer fan.</li></ul></td></tr>
+		<li>Master module with transducer fan.</li>
+		</ul>
+		The backup battery is continuously charged from the USB power supply and maintains system functionality in the event of mains failure.
+		<br><br>
+		The 8-port 5V usb power supply delivers power to the Master module, transducer fan, Camera module and recirculation and ventilation fans.
+		<br><br>
+		The Master module (described above) is equipped with a fan which ensures that the transducers are continuously fed with ambient air, without which the control loops would suffer considerable lag and significant deviation from their setpoints.
+		</td></tr>
 </table>
 
 # Watch this space for further material
