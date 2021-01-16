@@ -161,7 +161,12 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<br><br>
 		The ESP32-CAM Camera module.
 		</td></tr>
-		<tr><td colspan="2"><image src="images/controlCentreCameraTubes.jpg"></td></tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">The Camera Module</th>
+		<td><image src = "images/humidifierHeater.jpg" width = "100%"></td>
+	</tr>
 </table>
 
 # Watch this space for further material
