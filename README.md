@@ -136,7 +136,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	</tr>
 	<tr>
 		<td><image src="images/inletCircFan.jpg"></td>
-		<td><image src="images/inletCircFan.jpg"></td>
+		<td><image src="images/ExtractorFan.jpg"></td>
 	</tr>
 	<tr>
 		<td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
