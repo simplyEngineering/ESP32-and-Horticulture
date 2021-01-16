@@ -115,6 +115,7 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 # the 'VegBot' R&D lab
 <br>
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>. This structure has a small footprint, alowing it to be  unusually located within the cockpit of 'Lena Mary', my dry-docked Moody 40 sailing yacht stripped of its steering gear.
+<br>
 <table>
 <tr>
 	<th>The basic 'VegTrug' frame.</th>
@@ -128,7 +129,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 
 <table>
 	<tr>
-		<th colspan="2">Air quality control</th>
+		<th colspan="2">Air quality control in the VegBot</th>
 	</tr>
 	<tr>
 		<td width="50%">Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) even when the heater is off as would be the case under summer conditions, induction and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under the VegBot.</td>
@@ -139,8 +140,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/ExtractorFan.jpg"><br>Extractor fan in base of VegBot.</td>
 	</tr>
 	<tr>
-		<td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
-		<td><br> </td>
+		<td><image src = "images/humidifierHeater.jpg" width = "100%"></td>
+		<td><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the Master module. </td>
 	</tr>
 </table>
 
