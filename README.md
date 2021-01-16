@@ -135,7 +135,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><image src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"><br>Ventilation pipe (rear) and recirculation pipe (front).</td>
 	</tr>
 	<tr>
-		<td><image src="images/inletCircFan.jpg"><br>Ambient air induction fan and recirculation fan atop the induction and recirculation pipes respectively.</td>
+		<td><image src="images/inletCircFan.jpg"><br>Ambient air induction fan and recirculation fan atop the ventilation and recirculation pipes respectively.</td>
 		<td><image src="images/ExtractorFan.jpg"><br>Extractor fan in base of VegBot.</td>
 	</tr>
 	<tr>
