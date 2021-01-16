@@ -131,8 +131,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<th colspan="2">Air quality control</th>
 	</tr>
 	<tr>
-		<td width="40%">Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) even when the heater is off, as would be the case under summer conditions, inlet and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under from the VegBot.</td>
-		<td><image width="100%" src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"</td>
+		<td width="40%">Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) even when the heater is off as would be the case under summer conditions, inlet and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under the VegBot.</td>
+		<td><image src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"><br>Ventilation pipe (rear) and recirculation pipe (front).</td>
 	</tr>
 	<tr>
 		<td><image src="images/inletCircFan.jpg"></td>
