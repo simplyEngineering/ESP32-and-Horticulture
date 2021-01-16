@@ -131,16 +131,16 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<th colspan="2">Air quality control</th>
 	</tr>
 	<tr>
-		<td width="50%">Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) even when the heater is off as would be the case under summer conditions, inlet and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under the VegBot.</td>
+		<td width="50%">Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) even when the heater is off as would be the case under summer conditions, induction and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under the VegBot.</td>
 		<td><image src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"><br>Ventilation pipe (rear) and recirculation pipe (front).</td>
 	</tr>
 	<tr>
-		<td><image src="images/inletCircFan.jpg"></td>
-		<td><image src="images/ExtractorFan.jpg"></td>
+		<td><image src="images/inletCircFan.jpg"><br>Ambient air induction fan and recirculation fan atop the induction and recirculation pipes respectively.</td>
+		<td><image src="images/ExtractorFan.jpg"><br>Extractor fan in base of VegBot.</td>
 	</tr>
 	<tr>
 		<td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
-		<td><image src = "images/ExtractorFan.jpg" width = "100%"><br> </td>
+		<td><br> </td>
 	</tr>
 </table>
 
