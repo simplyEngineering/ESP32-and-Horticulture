@@ -67,7 +67,7 @@ This document identfies experimental hardware and software elements employed at 
 
 <br><br>
 <table>
-	<tr><th>Data acquisition, WEB server, WEB client and controller module - local host</th></tr>
+	<tr><th>Master module - local host</th></tr>
 	<tr><td><image src="images/ESP8266%20autonomous%20data%20acquisition%2C%20telemetry%20and%20control.jpg"></td></tr>
 	<tr><td>Based on a single <a href="https://en.wikipedia.org/wiki/NodeMCU">NodeMCU ESP8266</a> acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus with CO2 measurements made by interrupt driven PWM techniques.  (See <a href="https://github.com/simplyEngineering/MHZ-14-PWM-by-Interrupt">MHZ-14-PWM-by-Interrupt</a> repository). The weight parameter is used as an analogue of water content, used by the weight control loop. Noise reduction of the weight measurement is carried out by  digital filtering techniques (see code listings <a href="https://github.com/simplyEngineering/Loadcell-Cleaning-the-output">Loadcell-Cleaning-the-output</a> repository.  
 The WEB server component of the ESP8266 generates an interactive monitoring and control GUI on the local WiFi network (below left and see code <a href="code/vegtrug_monitor8_debug_git.ino">here </a>), uploading parametric measurements via a PHP interface (code <a href="code/post-data.php">here </a>) to a public SQL server (see sample database data list below centre). SQL data is subsequently accessed offline via a PHP page (see <a href="web/get_data.php"> code</a>) for analytical purposes and to form the basis of various javascript-driven charts: see example output below right and page-code listing <a href="web/indexDiffCompare9.html">here</a>. 
@@ -131,7 +131,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<th colspan="2">Air quality control</th>
 	</tr>
 	<tr>
-		<td>Stuff here</td>
+		<td>Air conditions within the VegBot are regulated under the control of the ESP8266 Master module. Minimum temperature is established by a heater control loop which is activated whenever the actual temperature falls below the  setpoint temperature by a set margin (nominally 1 degree). Deactivation occurs whenever the actual temperature exceeds the setpoint temperature by more than the same set margin. Should the actual temperature exceed the solar gain margin (nominally 3 degrees) as would be the case under summer conditions, inlet and extractor fans are activated to introduce colder ambient air from and exhaust warm air to the outside space under from the VegBot.</td>
 		<td><image width="100%" src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"</td>
 	</tr>
 	<tr>
@@ -140,7 +140,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	</tr>
 	<tr>
 		<td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
-		<td><image src = "images/ExtractorFan.jpg" width = "100%"><br>The 5V exhaust fan, extracting warm air to a cold space under the VegBot.  Activation occurs either if the internal temperature exceeds a set threshold, several degrees above nominal in the event of solar gain, or on a 1:4 cycle to ensure minimum air changes of around 1 volume each 4 minutes. </td>
+		<td><image src = "images/ExtractorFan.jpg" width = "100%"><br> </td>
 	</tr>
 </table>
 
