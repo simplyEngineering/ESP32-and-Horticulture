@@ -147,7 +147,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </table>
 <table>
 	<tr><th colspan="2%">The VegBot Control Centre and Camera</th></tr>
-	<tr><td><image width="50%" src="images/controlCentreCameraTubes.jpg"><td>stuff here</td></tr>
+	<tr><td><image src="images/controlCentreCameraTubes.jpg"><td width="50%">stuff here</td></tr>
 </table>
 
 # Watch this space for further material
