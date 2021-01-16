@@ -165,7 +165,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 <table>
 	<tr>
 		<th colspan="2">The Camera Module</th>
-		<td><image src = "images/humidifierHeater.jpg" width = "100%"></td>
+		<td><image src = "images/cameraModule.jpg"></td>
 	</tr>
 </table>
 
