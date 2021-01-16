@@ -127,13 +127,17 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 </table><br><br>
 
 <table>
-	<tr><th colspan="2">Air quality control</th></tr>
-	<tr><td>Stuff here</td><td><image src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"</td></tr>
-	
-	
-	<tr><td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
+	<tr>
+		<th colspan="2">Air quality control</th>
+	</tr>
+	<tr>
+		<td>Stuff here</td>
+		<td><image width="60%" src="images/VegTrug%20prior%20to%20installation%20showing%20ventilation%20pipes.jpg"</td>
+	</tr>
+	<tr>
+		<td><image src = "images/humidifierHeater.jpg" width = "100%"><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the ESP8266 controller module.</td>
 		<td><image src = "images/ExtractorFan.jpg" width = "100%"><br>The 5V exhaust fan, extracting warm air to a cold space under the VegBot.  Activation occurs either if the internal temperature exceeds a set threshold, several degrees above nominal in the event of solar gain, or on a 1:4 cycle to ensure minimum air changes of around 1 volume each 4 minutes. </td>
-		</tr>
+	</tr>
 </table>
 
 # Watch this space for further material
