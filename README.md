@@ -145,6 +145,10 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<td><br>The heater  (right) is a 500W ceramic element PTC device which is both fast heating and safe to use in an enclosed environment. The humidifier (left) is a generic 2.8l domestic device.  Both are controlled via isolating relays from the Master module. </td>
 	</tr>
 </table>
+<table>
+	<tr><th colspan="2%">The VegBot Control Centre and Camera</th></tr>
+	<tr><td><image width="50%" src="images/controlCentreCameraTubes.jpg"><td>stuff here</td></tr>
+</table>
 
 # Watch this space for further material
 ### <a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
