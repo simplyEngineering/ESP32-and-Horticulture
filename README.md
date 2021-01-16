@@ -112,19 +112,19 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 </table>
 
 <br><br>
-# the 'VegBot' R&D lab
+# The 'VegBot' R&D lab
 <br>
 To conveniently facilitate local off-site R&D activities, a small greenhouse 'lab' was constructed, based upon a <a href="https://www.quickcrop.co.uk/product/vegtrug-tomato-greenhouse"> 'VegTrug' Tomato greenhouse</a>. This structure has a small footprint, alowing it to be  unusually located within the cockpit of 'Lena Mary', my dry-docked Moody 40 sailing yacht stripped of its steering gear.
 <br>
 <br>
 <table>
 <tr>
-	<th>The basic 'VegTrug' frame.</th>
+	<th width="50%">The basic 'VegTrug' frame.</th>
 	<th>The 'VegTrug' frame in the cockpit (looking aft).</th>
 </tr>
 <tr>
-	<td><image src = "images/Vegtrug frame with cover.jpg" width = 50%></td>
-	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg" width = "100%"></td>
+	<td><image src = "images/Vegtrug frame with cover.jpg"></td>
+	<td><image src = "images/VegTrug%20in%20situ%20(cockpit).jpg"></td>
 </tr>
 </table><br><br>
 
