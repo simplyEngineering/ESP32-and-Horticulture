@@ -157,8 +157,11 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		<br><br>
 		The 8-port 5V usb power supply delivers power to the Master module, transducer fan, Camera module and recirculation and ventilation fans.
 		<br><br>
-		The Master module (described above) is equipped with a fan which ensures that the transducers are continuously fed with ambient air, without which the control loops would suffer considerable lag and significant deviation from their setpoints.
+		The ESP8266 Master module (described above) is equipped with a fan which ensures that the transducers are continuously fed with ambient air, without which the control loops would suffer considerable lag and significant deviation from their setpoints.
+		<br><br>
+		The ESP32-CAM Camera module.
 		</td></tr>
+		<tr><td colspan="2"><image src="images/controlCentreCameraTubes.jpg"></td></tr>
 </table>
 
 # Watch this space for further material
