@@ -163,10 +163,8 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		</td></tr>
 </table>
 <table>
-	<tr>
-		<th colspan="2">The Camera Module</th>
-		<td><image src = "images/cameraModule.jpg"></td>
-	</tr>
+	<tr><th colspan="2">The Camera Module</th></tr>
+	</tr><td><image src = "images/cameraModule.jpg"></td></tr>
 </table>
 
 # Watch this space for further material
