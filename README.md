@@ -77,8 +77,7 @@ Sub-optimal <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">Ba
 </tr>
 
 <br>
-## Ancillary Modules
-<br>	
+
 <table>
 <tr>
 	<th>A simple stand-alone temperature/humidity/pressure/WEB server module</th>
