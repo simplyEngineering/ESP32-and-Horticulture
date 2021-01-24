@@ -41,9 +41,10 @@ This document identfies experimental hardware and software elements employed at 
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg"></td>	
 	</tr>
-	<tr>
-		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"><br><b>In-situ</b></td>
-		<td><image src="images/weigh%20platform.s.jpg"><br><b>Load cell platform</b></td>	
+	<tr>	
+		<th>In-situ</th><th><Load cell platform</th>
+		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"></td>
+		<td><image src="images/weigh%20platform.s.jpg"</td>	
 	</tr>
 	<tr>
 		<td colspan="2">This module adopts a <a href="https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_lora_32_V2.html">Heltec WiFi LoRa 32 (V2)</a>  microcontroller running two cores at 240MHz with 8Mb flash and 320kb RAM.
