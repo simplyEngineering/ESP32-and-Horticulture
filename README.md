@@ -164,4 +164,4 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	
 # This is an active project so watch this space for further material<br>
 	
-### Enquiries to:<a href="mailto: //stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
+### Enquiries to:&nbsp<a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
