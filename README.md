@@ -155,6 +155,7 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 		The ESP32-CAM Camera module.
 		</td></tr>
 </table>
+	<br><br>
 <table>
 	<tr><th colspan="2">The Camera Module</th></tr>
 	<tr><td colspan="2"><image src="images/cameraModule.jpg"></td></tr>
