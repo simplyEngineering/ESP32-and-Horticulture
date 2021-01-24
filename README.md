@@ -160,6 +160,6 @@ To conveniently facilitate local off-site R&D activities, a small greenhouse 'la
 	<tr><td colspan="2"><image src="images/cameraModule.jpg"></td></tr>
 	<tr><td>Seeing is believing! To supplant the data acquisition an ESP32-cam module (upper right) acquires a 1600 x 1200 jpg image every 30 minutes.  Using its WiFi client capabilities it uploads it to a public file server for viewing. Having no intrinsic USB serial port a generic FTDI interface (lower right) is included on the board for convenience. The circular component is a 0.22F supercapcitor without which this camera tends to 'brownout' demanding as it does a high level of surge current during data acquisition. The relay module(centre left) is used to switch power to a 20W LED batten luminaire during the acquisition cycle.</td><td width="70%"><image src = "images/vegcam1.jpg"><br>The uploaded camera image is overlayed with a data panel by means of an iFrame, its data source being extracted from the SQL data server from a WiFi local host or LoRa Receiver/Gateway module.</td></tr>
 </table>
-
-# Watch this space for further material
-### <a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
+<br><br>
+# This is an active project - watch this space for further material
+### Enquiries to:<a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
