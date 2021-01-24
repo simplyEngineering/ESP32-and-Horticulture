@@ -76,8 +76,9 @@ Sub-optimal <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">Ba
 	<td><image src="web/period%20cost%20calcs2.jpg"></td>
 </tr>
 
-<br><br>
-	
+<br>
+## Ancillary Modules
+<br>	
 <table>
 <tr>
 	<th>A simple stand-alone temperature/humidity/pressure/WEB server module</th>
