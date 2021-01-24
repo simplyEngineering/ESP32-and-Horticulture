@@ -74,7 +74,7 @@ The WEB server component of the ESP8266 generates an interactive monitoring and 
 Sub-optimal <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">Bang-bang</a> control loops are provided for temperature, humidity, weight (pump control) and ventilation, their outputs being interfaced by low-power isolating relays.<br><br><b>CAUTION!</b> Whilst the ESP32/8266 microntroller is fully capable of delivering all the services in this module, due consideration should be given to their potential disruptive mutual interactions. For example, the WEB server GUI may be stimulated into activity by a client connexion at any arbitrary time, just when one of the control loops is commanded into action by a transducer measurement.  The outcome may be quite benign but is at the very least unpredictable and at worst may cause a system hangup or dangerous output. This has been an observed condition in this module and warrants a better design approach such as real-time task scheduling such as found in <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/freertos.html">FreeRTOS</a>. Further work is required here. </td><td><image src ="images/VegBotControlPOanel.png"></td></tr>
 <tr><th>Sample SQL data</th><th>Sample derived chart</th></tr>
 <tr>
-	<td><image src="web/SQL%20data%20list.png" width = "50%"></td>
+	<td><image src="web/SQL%20data%20list.png"></td>
 	<td><image src="web/period%20cost%20calcs2.jpg"></td>
 </tr>
 
