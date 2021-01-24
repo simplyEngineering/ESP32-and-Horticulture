@@ -61,10 +61,9 @@ This document identfies experimental hardware and software elements employed at 
 		<td><image src="images/mk2%20%20lora%20receiver%20wifi%20client%20internal.jpg"></td>
 	</tr>
 	<tr>	
-		<td colspan="2">This module use the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link from the transmitter and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  Visible on the OLED display are the temperature, pressure, humidity, light and weight measurements as well as some supervisory data including the RSSI (Radio Signal Strength Indicator), Battery voltage, Message ID (a transmitter generated serial number to identify missing packets), a 'Wait' countdown timer to indicate system activity  and a 'Post' counter to indicate the number of previous attempts to post the message. (an indicator of link quality).  See code <a href="code/LoRaReceiver_T_git.ino">here.</td></tr>
+		<td colspan="2">This module uses the same hardware as the corresponding transmitter, but without the transducers and  utilising the OLED display and WiFi capability.  It acts as a Gateway to an SQL database server by receiving data packets over the LoRa link from the transmitter and forwarding them via a WiFi client connection to a local Internet Router (landline or Wireless 4/5G).  Visible on the OLED display are the temperature, pressure, humidity, light and weight measurements as well as some supervisory data including the RSSI (Radio Signal Strength Indicator), Battery voltage, Message ID (a transmitter generated serial number to identify missing packets), a 'Wait' countdown timer to indicate system activity  and a 'Post' counter to indicate the number of previous attempts to post the message. (an indicator of link quality).  See code <a href="code/LoRaReceiver_T_git.ino">here.</td></tr>
 </table>
 
-<br><br>
 <table>
 	<tr><th colspan="2">A Local Host</th></tr>
 	<tr><td colspan="2"><image src="images/dataAcquisitionCommunicationsOutputModule.jpg"></td></tr>
@@ -79,9 +78,6 @@ Sub-optimal <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">Ba
 
 <br><br>
 	
-
-## Ancillary modules
-
 <table>
 <tr>
 	<th>A simple stand-alone temperature/humidity/pressure/WEB server module</th>
