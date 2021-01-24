@@ -34,9 +34,7 @@ This document identfies experimental hardware and software elements employed at 
 
 # The Modules
 <table>
-	<tr>
-		<td><b>Data acquisition and LoRa transmitter Module - remote host .....</b></td><td><b>..... Internal</b></td>
-	</tr>
+	<tr><th><b>Data acquisition and LoRa transmitter Module - remote host .....</th><th>Internal</th></tr>
 	<tr>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg"></td>	
