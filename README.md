@@ -41,8 +41,8 @@ This document identfies experimental hardware and software elements employed at 
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter%20internal.jpg"></td>	
 	</tr>
-	<tr>	
-		<th>In-situ</th><th><Load cell platform</th>
+	<tr><th>In-situ</th><th><Load cell platform</th></tr>
+	<tr>
 		<td><image width = "50%" src="images/mk2%20sensors%20lora%20transmitter%20in_situ.jpg"></td>
 		<td><image src="images/weigh%20platform.s.jpg"</td>	
 	</tr>
