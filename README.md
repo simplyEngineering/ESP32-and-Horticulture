@@ -51,7 +51,7 @@ This document identfies experimental hardware and software elements employed at 
 		The primary purpose of this module is to acquire temperature, relative humidity, light, atmospheric pressure and weight measurements, assemble the data into packets and transmit them over a LoRa link to its receiver counterpart at the gateway. The loadcell platform uses a pair of 10kG strain guages linked to a bridge amplifier and 16-bit ADC via an I2C bus.  One of the strain guages can just be seen in the photograph, sandwiched between the upper and lower platforms, the jack screws being used for levelling purposes. See code <a href="code/dataLogger6_noSleep3_compensate3_noCO2_git.ino">here</a></td>
 	</tr>
 </table>
-<br><br>
+<br>
 <table>
 	<tr>
 		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Internal</b></td>
@@ -92,7 +92,7 @@ The WEB server component of the ESP8266 generates an interactive monitoring and 
 		See code <a href = "code/ACROBOTIC_plot_sensor_data9_git.ino">here.</a>The blank pressure graph is due to the fact that at the time of publication the pressure was off-scale!</td>
 </tr>
 </table>
-<br><br>
+<br>
 <table>
 <tr>
 	<th colspan="2">A data display module</th>
