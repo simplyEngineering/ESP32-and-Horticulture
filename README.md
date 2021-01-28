@@ -104,6 +104,12 @@ The WEB server component of the ESP8266 generates an interactive monitoring and 
 See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.ino">here</a></td>
 </tr>
 </table>
+<br><br>
+<table>
+	<tr><th colspan="2">The Camera Module</th></tr>
+	<tr><td colspan="2"><image src="images/cameraModule.jpg"></td></tr>
+	<tr><td><b>Seeing is believing!</b><br><br> To supplant the data acquisition an ESP32-cam module (upper right) acquires a 1600 x 1200 jpg image every 30 minutes.  Using its WiFi client capabilities it uploads it to a public file server for viewing.<br><br> Having no intrinsic USB serial port a generic FTDI interface (lower right) is included on the board for convenience. The circular component is a 0.22F supercapacitor without which this camera may 'brownout' the supply due to a high level of surge current during data acquisition. <br><br>The relay module(centre left) is used to switch power to a 20W LED batten luminaire during the acquisition cycle.</td><td width="75%"><image src = "images/vegcam1.jpg"><br>The uploaded camera image is overlayed with a data panel by means of an HTML iFrame, its data source being extracted from the SQL data server sourced from a WiFi local host or LoRa Receiver/Gateway module.</td></tr>
+</table>
 
 # This is an active project - watch this space for further material<br><br>
 ## See also the <a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab"> ESP32 and Horticulture R&D Lab</a> related repository<br><br>
