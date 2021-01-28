@@ -24,7 +24,7 @@ This document identfies experimental hardware and software elements employed at 
 <table>
 	<tr><th>System Overview</th></tr>
 	<tr><td>The system structure is based on a star/hub network,  each host (polytunnel) being equipped with its own data acquisition, communications and optional control capabilities. Hosts within WiFi range (local hosts) communicate directly  with the hub via WiFi whilst those beyond WiFi range (remote hosts) report to a central hub using low-power wide-area network <a href="https://en.wikipedia.org/wiki/LPWAN">LPWAN</a> protocols.  It should be noted that the <a href="https://www.espressif.com/en/products/socs/esp32">ESP32 series</a> of microcontrollers provide all the necessary LPWAN and WiFi hardware and software so are particuularly well suited to this application, distances of 1 - 10 kM being regularly achievable. The hub acts as a gateway providing an internet path via a WiFi router (landline or wireless) to an SQL database server where all host-originated parametric measurements are consolidated and available for off-line analytical purposes.<br><br></td></tr>
-	<tr><td>For the purpose of this project and with the cooperation of a local tomato grower having  polytunnels scattered over many hectares, a field operation was set up so that selected tunnels could be set up with appropriate monitoring and communication equipment.<br><br>To conveniently facilitate local off-site R&D  for this project a small greenhouse 'lab' was constructed (the <b>'VegBot'</b>), described in the rfelated <a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab">ESP32 R&D Lab</a>repository.
+	<tr><td>For the purpose of this project and with the cooperation of a local tomato grower having  polytunnels scattered over many hectares, a field operation was set up so that selected tunnels could be set up with appropriate monitoring and communication equipment.<br><br>To conveniently facilitate local off-site R&D  for this project a small greenhouse 'lab' was constructed (the <b>'VegBot'</b>), described in the related <a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab">ESP32 R&D Lab</a> repository.
 <br></td><tr>
 </table>
 <table>
@@ -106,5 +106,5 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 </table>
 
 # This is an active project - watch this space for further material<br><br>
-## See also the <a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab"> related repository</a><br><br>
+## See also the <a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab"> ESP32 and Horticulture R&D Lab</a> related repository<br><br>
 ### Enquiries to:&nbsp;&nbsp;<a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
