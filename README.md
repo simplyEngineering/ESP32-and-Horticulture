@@ -105,6 +105,6 @@ See code <a href="code/HTTP_Get_request_for_data_scraping9_RTOS_httpclient_git.i
 </tr>
 </table>
 
-# This is an active project - watch this space for further material<br>
-	
+# This is an active project - watch this space for further material<br><br>
+## See also the https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab support repository<br><br>
 ### Enquiries to:&nbsp;&nbsp;<a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Stuart A Spray C.Eng MIEE</a>
