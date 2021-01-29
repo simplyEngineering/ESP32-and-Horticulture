@@ -4,13 +4,13 @@
 	
 ## Contents
 </td></tr>
-<tr><td width="50%">
+<tr><td width="100%">
 <ul>
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li></ul>
 </td>
-<td><a href="#modules">Modules</a>
+<td width="100%"><a href="#modules">Modules</a>
 <ul>
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
