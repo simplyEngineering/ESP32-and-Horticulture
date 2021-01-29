@@ -10,7 +10,7 @@
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li></ul>
 </td>
-<td><a href="#modules">
+<td><a href="#modules"><image width="50%" src="images/1px.png">
 	
 ### Modules</a>
 <ul>
