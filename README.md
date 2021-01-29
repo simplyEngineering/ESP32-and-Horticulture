@@ -52,9 +52,10 @@ This document identfies experimental hardware and software elements employed at 
 	<tr><td><image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg"></td></tr>
 <table>
 <br><br>
-
+<a name="modules">
 # The Modules
 <table>
+	<a name="remote">
 	<tr><th>A Remote Host</th><th>Internal</th></tr>
 	<tr>
 		<td><image src="images/mk2%20sensors%20lora%20transmitter.jpg"></td>
@@ -75,6 +76,7 @@ This document identfies experimental hardware and software elements employed at 
 <br>
 <table>
 	<tr>
+		<a name="gateway">
 		<td><b>LoRa Receiver and Gateway Module.....</b></td><td><b>..... Internal</b></td>
 	</tr>
 	<tr>
