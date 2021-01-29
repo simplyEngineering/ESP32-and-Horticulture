@@ -58,7 +58,7 @@ This document identfies experimental hardware and software elements employed at 
 <br></td><tr>
 </table>
 <table>
-	<tr><th>An example on-site polytunnel and outbuiding configuration</th></tr>
+	<tr><th>An example on-site polytunnel and outbuiding</th></tr>
 	<tr><td><image src = "images/typical%20small%20scale%20tunnel%20setup.s.jpg"></td></tr>
 <table>
 <br><br>
