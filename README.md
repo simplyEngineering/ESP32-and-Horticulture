@@ -53,7 +53,8 @@ This document identfies experimental hardware and software elements employed at 
 <table>
 <br><br>
 <a name="modules">
-# The Modules
+	
+## The Modules
 <table>
 	<a name="remote">
 	<tr><th>A Remote Host</th><th>Internal</th></tr>
