@@ -7,6 +7,7 @@
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li>
+<li><a href="https://github.com/simplyEngineering/ESP32-and-Horticulture-R-D-Lab">ESP32 R&D Lab</a></li>
 </ul>
 </td>
 <a href="#modules">
