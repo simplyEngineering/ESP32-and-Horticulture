@@ -2,22 +2,22 @@
 
 ## Contents
 
-<lu>
+<ul>
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li>
 <li><a href="#modules">Modules</a></li>
-<lu>
+<ul>
 <li>Module 1</li>
 <li>Module 1</li>
 <li>Module 1</li>
 <li>Module 1</li>
 <li>Module 1</li>
 <li>Module 1</li>
-</lu>	
+</ul>	
 <li><a href="#remotehost">Remote Host (Lora Transmitter)</a></li>
 <li><a href="#gateway">Gateway (Lora receiver)</a></li>
-</lu>
+</ul>
 <br><br>
 <a name="project">
 	
