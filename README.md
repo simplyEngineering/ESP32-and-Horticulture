@@ -7,7 +7,7 @@
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li></ul>
 </td>
-<td><li><a href="#modules">Modules</a></li>
+<td width="50%"><a href="#modules">Modules</a>
 <ul>
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
