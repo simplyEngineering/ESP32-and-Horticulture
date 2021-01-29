@@ -14,12 +14,12 @@
 <a name="project">
 	
 ### The Project
-
+<table><tr><td>
 Whatever the crop, balancing yield and quality against cost and time  mandates tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 This document identfies experimental hardware and software elements employed at various points in the project over an extended period. Photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings are presented (with attributions where appropriate). 
 
-<b>Whilst these elements are valid in their own right they are illustrative only and it should not be assumed that they are either complete or directly relateable.  However, I would be delighted to provide any further explanatory information on request.</b>
+<b>Whilst these elements are valid in their own right they are illustrative only and it should not be assumed that they are either complete or directly relateable.  However, I would be delighted to provide any further explanatory information on request.</b></td></tr></table>
 
 <a href="mailto://stuart@ceng.me.uk?subject=ESP32 and Horticulture">Contact Stuart A Spray C.Eng MIEE</a>
 <br><br>
