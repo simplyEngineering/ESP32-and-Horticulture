@@ -15,8 +15,6 @@
 <li><a href="data">Data display</a></li>
 <li><a href="#camera">Camera</a></li>
 </ul>	
-<li><a href="#remotehost">Remote Host (Lora Transmitter)</a></li>
-<li><a href="#gateway">Gateway (Lora receiver)</a></li>
 </ul>
 <br><br>
 <a name="project">
