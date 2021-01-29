@@ -1,7 +1,8 @@
 # ESP32 and ESP8266 microcontrollers in horticulture - a working example.
 
-# Contents<lu>
-	<li>The Project</li><br>
+# Contents
+<lu>
+<li>The Project</li><br>
 <a href="#microcontrollers">Microcontrollers</a><br>
 <a href="#system">System overview</a><br>
 <a href="#modules">Modules</a><br>
