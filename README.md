@@ -120,7 +120,7 @@ The WEB server component of the ESP8266 generates an interactive monitoring and 
 <br>
 <table>
 <tr>
-	<a name="display">
+	<a name="data">
 	<th colspan="2">A data display module</th>
 </tr>
 <tr>
