@@ -1,12 +1,13 @@
 # ESP32 and ESP8266 microcontrollers in horticulture - a working example.
 
-# Contents
-<a href="#project">The Project</a><br>
+# Contents<lu>
+	<li><a href="#project">The Project</a></li><br>
 <a href="#microcontrollers">Microcontrollers</a><br>
 <a href="#system">System overview</a><br>
 <a href="#modules">Modules</a><br>
 <a href="#remotehost">Remote Host (Lora Transmitter)</a><br>
 <a href="#gateway">Gateway (Lora receiver)</a><br>
+</lu>
 <br><br>
 <a name="project">The Project
 
