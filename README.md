@@ -1,9 +1,7 @@
 # ESP32 and ESP8266 microcontrollers in horticulture <br>- a working example.
 
-<table><tr><td colspan="2">
-	
 ## Contents
-</td></tr>
+<table>
 <tr><td><image width="50%" src="images/1px.png"><br>
 <ul>
 <li><a href="#project">The Project</a></li>
