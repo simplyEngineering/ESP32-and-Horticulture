@@ -8,12 +8,12 @@
 <li><a href="#system">System overview</li></a></li>
 <li><a href="#modules">Modules</a></li>
 <ul>
-<li>Module 1</li>
-<li>Module 1</li>
-<li>Module 1</li>
-<li>Module 1</li>
-<li>Module 1</li>
-<li>Module 1</li>
+<li<a href="#remote">Remote Host</a></li>
+<li><a href="#gateway">Lora Receiver/Gateway</a></li>
+<li>Local Host</li>
+<li>Stand-alone transducer/WEB server</li>
+<li>Data display</li>
+<li>Camera</li>
 </ul>	
 <li><a href="#remotehost">Remote Host (Lora Transmitter)</a></li>
 <li><a href="#gateway">Gateway (Lora receiver)</a></li>
