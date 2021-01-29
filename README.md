@@ -4,7 +4,7 @@
 <a href="#project">The Project</a><br>
 <a href="#microcontrollers">Microcontrollers</a><br>
 <a href="#system">System overview</a><br>
-<a href="#modules">The Project</a><br>
+<a href="#modules">Modules</a><br>
 <a href="#remotehost">Remote Host (Lora Transmitter)</a><br>
 <a href="#gateway">Gateway (Lora receiver)</a><br>
 <br><br>
