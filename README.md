@@ -13,7 +13,7 @@
 <a href="#modules">
 <td><image width="50%" src="images/1px.png"><br>
 	
-### Hardware Modules
+<b>Hardware Modules</b>
 <ul>
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
