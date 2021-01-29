@@ -1,7 +1,6 @@
 # ESP32 and ESP8266 microcontrollers in horticulture <br>- a working example.
 
 <table><tr><td colspan="2">
-	
 ## Contents
 </td></tr>
 <tr><td>
@@ -18,12 +17,15 @@
 <li><a href="#transducer">Stand-alone transducer/WEB server</a></li>
 <li><a href="#data">Data display</a></li>
 <li><a href="#camera">Camera</a></li>
+</ul>
 </td></tr>
 </table>
-	
-<table><tr><td><a name="project">
+
+<a name="project">	
+<table><tr><td>
 	
 ### The Project</td></tr>
+<tr><td>
 Whatever the crop, balancing yield and quality against cost and time  mandates tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
 This document identfies experimental hardware and software elements employed at various points in the project over an extended period. Photographs of prototype hardware, screenshots of typical database output, WEB pages, control/monitoring GUIs and code listings are presented (with attributions where appropriate). 
