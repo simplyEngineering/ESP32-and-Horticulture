@@ -6,8 +6,8 @@
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
 <li><a href="#system">System overview</li></a></li>
-<li><a href="#modules">Modules</a></li></td>
-<td>
+</td>
+<td><li><a href="#modules">Modules</a></li>
 <ul>
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
