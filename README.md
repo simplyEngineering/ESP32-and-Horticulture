@@ -4,16 +4,17 @@
 	
 ## Contents
 </td></tr>
-<tr><td><image width="50%" src="images/1px.png">
+<tr><td><image width="50%" src="images/1px.png"><br>
 <ul>
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
-<li><a href="#system">System overview</li></a></li></ul>
+<li><a href="#system">System overview</li></a></li>
+</ul>
 </td>
 <a href="#modules">
-<td><image width="50%" src="images/1px.png">
+<td><image width="50%" src="images/1px.png"><br>
 	
-### Modules</a>
+### Modules
 <ul>
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
