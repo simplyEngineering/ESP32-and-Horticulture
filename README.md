@@ -11,8 +11,8 @@
 <li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
 <li><a href="#local">Local Host</a></li>
-<li><a href="transducer">Stand-alone transducer/WEB server</a></li>
-<li><a href="data">Data display</a></li>
+<li><a href="#transducer">Stand-alone transducer/WEB server</a></li>
+<li><a href="#data">Data display</a></li>
 <li><a href="#camera">Camera</a></li>
 </ul>	
 </ul>
@@ -88,6 +88,7 @@ This document identfies experimental hardware and software elements employed at 
 </table>
 
 <table>
+	<a name="local">
 	<tr><th colspan="2">A Local Host</th></tr>
 	<tr><td colspan="2"><image src="images/dataAcquisitionCommunicationsOutputModule.jpg"></td></tr>
 	<tr><td width = "50%">The local host is based on a single <a href="https://en.wikipedia.org/wiki/NodeMCU">NodeMCU ESP8266</a> acquiring temperature, relative humidity, atmospheric pressure, light and weight via a I2C bus. CO2 measurements are made by interrupt driven PWM techniques.  (See <a href="https://github.com/simplyEngineering/MHZ-14-PWM-by-Interrupt">MHZ-14-PWM-by-Interrupt</a> repository). It might seem strange to be measuring weight but this parameter is used as an analogue of water content/dryness of the growing medium and thus a convenient way of controlling irrigation via the pump control loop. The fan ensures that the transducers are flooded with ambient air and not just responding to local board conditions.<br><br>Load cell noise reduction of the weight measurement is carried out by  digital filtering techniques (see code listings <a href="https://github.com/simplyEngineering/Loadcell-Cleaning-the-output">Loadcell-Cleaning-the-output</a> repository.  <br><br>Sub-optimal <a href="https://en.wikipedia.org/wiki/Bang%E2%80%93bang_control">Bang-bang</a> control loops are provided for temperature, humidity, weight (pump control) and ventilation, their outputs being interfaced by low-power isolating relays. The relays are interfaced to the ESP8266 output ports via 2n3904 NPN emitter followers (Historical note: 2n3904s have been around since the late 60's!)<br><br>
