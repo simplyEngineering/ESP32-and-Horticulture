@@ -5,7 +5,7 @@
 <ul>
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
-<li><a href="#system">System overview</li></a></li>
+<li><a href="#system">System overview</li></a></li></ul>
 </td>
 <td><li><a href="#modules">Modules</a></li>
 <ul>
@@ -15,8 +15,6 @@
 <li><a href="#transducer">Stand-alone transducer/WEB server</a></li>
 <li><a href="#data">Data display</a></li>
 <li><a href="#camera">Camera</a></li>
-</ul>	
-</ul>
 </td></tr>
 <a name="project">
 	
