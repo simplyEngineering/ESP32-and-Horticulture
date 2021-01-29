@@ -2,12 +2,12 @@
 
 # Contents
 <lu>
-<li><a href="#project">The Project</a></li><br>
-<li><a href="#microcontrollers">Microcontrollers</a></li><br>
-<li><a href="#system">System overview</li></a><br>
-<a href="#modules">Modules</a><br>
-<a href="#remotehost">Remote Host (Lora Transmitter)</a><br>
-<a href="#gateway">Gateway (Lora receiver)</a><br>
+<li><a href="#project">The Project</a></li>
+<li><a href="#microcontrollers">Microcontrollers</a></li>
+<li><a href="#system">System overview</li></a></li>
+<li><a href="#modules">Modules</a></li>
+<li><a href="#remotehost">Remote Host (Lora Transmitter)</a></li>
+<li><a href="#gateway">Gateway (Lora receiver)</a></li>
 </lu>
 <br><br>
 <a name="project">The Project
