@@ -4,7 +4,7 @@
 	
 ## Contents
 </td></tr>
-<tr><td>
+<tr><td><image width="50%" src="images/1px.png">
 <ul>
 <li><a href="#project">The Project</a></li>
 <li><a href="#microcontrollers">Microcontrollers</a></li>
