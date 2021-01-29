@@ -1,4 +1,4 @@
-# ESP32 and ESP8266 microcontrollers in horticulture - a working example.
+# ESP32 and ESP8266 microcontrollers in horticulture <br>- a working example.
 
 ## Contents
 
@@ -8,12 +8,12 @@
 <li><a href="#system">System overview</li></a></li>
 <li><a href="#modules">Modules</a></li>
 <ul>
-<li<a href="#remote">Remote Host</a></li>
+<li><a href="#remote">Remote Host</a></li>
 <li><a href="#gateway">Lora Receiver/Gateway</a></li>
-<li>Local Host</li>
-<li>Stand-alone transducer/WEB server</li>
-<li>Data display</li>
-<li>Camera</li>
+<li><a href="#local">Local Host</a></li>
+<li><a href="transducer">Stand-alone transducer/WEB server</a></li>
+<li><a href="data">Data display</a></li>
+<li><a href="#camera">Camera</a></li>
 </ul>	
 <li><a href="#remotehost">Remote Host (Lora Transmitter)</a></li>
 <li><a href="#gateway">Gateway (Lora receiver)</a></li>
