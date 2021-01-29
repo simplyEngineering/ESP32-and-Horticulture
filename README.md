@@ -1,7 +1,14 @@
 # ESP32 and ESP8266 microcontrollers in horticulture - a working example.
 
 # Contents
-<a name="project"></a>The Project
+<a href="#project"></a>The Project
+<a href="#microcontrollers"></a>Microcontrollers
+<a href="#system"></a>System overview
+<a href="#modules"></a>The Project
+<a href="#remotehost"></a>Remote Host (Lora Transmitter)
+<a href="#gateway"></a>Gateway (Lora receiver)
+<br><br>
+<a name="project">The Project
 
 Whatever the crop, balancing yield and quality against cost and time  mandates tight control of growing conditions. However, such control cannot be achieved without an intimate knowledge of the growing environment, demanding measurement, processing, data-logging, display, control and communication sub-systems for which the low-cost ESP32 and ESP8266 devices are very well suited.
 
